@@ -1,12 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
-import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -22,54 +19,53 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <div class="background"></div>
+      <div class="container hide-scrollbar">
+        <div class="parent">
+          <div class="item"></div>
+          <div class="item row-2"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item row-2"></div>
+          <div class="item col-2 no-box">
+            <img class="item-image" src="https://picsum.photos/204/96" alt="" />
+          </div>
+          <div class="item"></div>
+          <div class="item col-2 radius-2"></div>
+          <div class="item radius-2"></div>
+          <div class="item col-3 collapse-container">
+            <div class="collapse-toggle">
+              <div class="title">About</div>
+            </div>
+            <div class="collapse-content">
+              <p>
+                Content creators on social media are usually not approached like
+                film directors, musicians or designers, while these creators
+                make an important contribution to our daily media consumption
+                and (digital) culture. In the Significant Content event series,
+                popular creators on various social media platforms are offered
+                an artist talk.
+              </p>
+              <p>
+                Just as a significant figure in mathematics can make a
+                difference in a calculation, the content of these creators can
+                make a difference within the framework of a social media
+                platform and reveal medium-specific characteristics of this
+                platform. These creators often deploy very clever tactics that
+                make their content work well within the medium they are using.
+                By outlining the content and methods of these creators,
+                meanwhile, it unravels how social media platforms work beneath
+                the surface.
+              </p>
+              <p>
+                Significant Content was initiated by Sjef van Beers and Florian
+                van Zandwijk. The two pilot events are made possible by the
+                Creative Industries Fund NL.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
