@@ -47,11 +47,22 @@ collections:
                   - label: Columns
                     name: columns
                     widget: select
-                    options: [1, 2, 3, 4]
+                    options:
+                      - { label: "1", value: 1 }
+                      - { label: "2", value: 2 }
+                      - { label: "3", value: 3 }
+                      - { label: "4", value: 4 }
+                    default: { label: "1", value: 1 }
                   - label: Rows
                     name: rows
                     widget: select
-                    options: [1, 2, 3, 4]
+                    options:
+                      - { label: "1", value: 1 }
+                      - { label: "2", value: 2 }
+                      - { label: "3", value: 3 }
+                      - { label: "4", value: 4 }
+                    default: { label: "1", value: 1 }
+                  - label: Rows
                   - label: Round
                     name: round
                     widget: boolean
