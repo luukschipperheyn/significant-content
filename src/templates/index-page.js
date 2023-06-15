@@ -1,6 +1,7 @@
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import ContentBlock from "../components/ContentBlock";
 
 import Layout from "../components/Layout";
 
@@ -15,9 +16,9 @@ export const IndexPageTemplate = ({
 }) => {
   return (
     <div>
-      <div class="background"></div>
-      <div class="container hide-scrollbar">
-        <div class="parent">
+      <div className="background"></div>
+      <div className="container hide-scrollbar">
+        <div className="parent">
           {blocks &&
             blocks.map((block) => {
               switch (block.type) {
@@ -33,8 +34,11 @@ export const IndexPageTemplate = ({
                       }`}
                     ></div>
                   );
+                case "content-block":
+                  console.log({block})
+                  return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} />
                 default:
-                  return <div className="item">{block.type}</div>;
+                  return <div className="item"> <div className="title">{block.type}</div></div>;
               }
             })}
         </div>
@@ -90,6 +94,8 @@ export const pageQuery = graphql`
           round
           rows
           type
+          label
+          body
         }
       }
     }
