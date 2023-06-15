@@ -26,7 +26,11 @@ export const IndexPageTemplate = ({
                     <div
                       className={`item row-${block.rows} col-${
                         block.columns
-                      } radius-${Math.min(block.rows, block.columns)}`}
+                      } radius-${
+                        block.round
+                          ? 2 * Math.min(block.rows, block.columns)
+                          : 1
+                      }`}
                     ></div>
                   );
                 default:
