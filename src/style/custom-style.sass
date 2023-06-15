@@ -1,202 +1,133 @@
 @import ./variables.sass
-:root {
-  --container-width: 420px;
-  --num-columns: 4;
-  --spacing: 12px;
 
-  --black: #282828;
-  --white: #f0f0f2;
+@font-face
+  font-family: 'Manuka-Regular'
+  src: url('../fonts/Manuka-Regular.woff2') format('woff2')
 
-  --gradient-color-1: #c1a2f2;
-  --gradient-color-2: #ffc540;
-  --gradient-color-3: #00ffaa;
-  --gradient-color-4: #ffffff;
+*
+  box-sizing: border-box
 
-  --spacing-2: calc(var(--spacing) * 2);
-  --spacing-3: calc(var(--spacing) * 3);
-  --spacing-4: calc(var(--spacing) * 4);
-  --unit-height: calc(
-    (var(--container-width) - (var(--num-columns) - 1) * var(--spacing)) /
-      var(--num-columns)
-  );
-  --unit-radius: calc(var(--unit-height) / var(--num-columns));
-}
+body
+  margin: 0
+  color: $black
+  font-family: pragmatica, sans-serif
 
-@font-face {
-  font-family: 'Manuka-Regular';
-  src:  url('https://things.luuk.computer/uploads/Manuka-Regular.woff2') format('woff2'),
-    url('https://things.luuk.computer/uploads/Manuka-Regular.woff') format('woff');
-}
+.title
+  font-family: Manuka-Regular, sans-serif
+  font-size: 32px
 
-* {
-  box-sizing: border-box;
-}
+.hide-scrollbar
+  -ms-overflow-style: none
+  scrollbar-width: none
 
-body {
-  margin: 0;
-  color: var(--black);
-  font-family: pragmatica, sans-serif;
-}
+  &::-webkit-scrollbar
+    display: none
 
-.title {
-  font-family: Manuka-Regular, sans-serif;
-  font-size: 32px;
-}
+.background
+  position: fixed
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background: linear-gradient( 0deg, $gradient-color-1, $gradient-color-2, $gradient-color-3, $gradient-color-4 )
+  background-size: 100% 800%
 
-.hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari and Opera */
-}
+  -webkit-animation: background-gradient 30s ease infinite
+  -moz-animation: background-gradient 30s ease infinite
+  animation: background-gradient 30s ease infinite
 
-.background {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(
-    0deg,
-    var(--gradient-color-1),
-    var(--gradient-color-2),
-    var(--gradient-color-3),
-    var(--gradient-color-4)
-  );
-  background-size: 100% 800%;
+.container
+  position: fixed
+  top: $spacing-2
+  bottom: $spacing-2
+  left: 50%
+  transform: translateX(-50%)
+  overflow-y: auto
+  width: $container-width
+  position: fixed
+  background: $white
+  padding: $spacing-2
+  border-radius: $unit-radius
+  border: 2px solid $black
+  box-sizing: content-box
 
-  -webkit-animation: background-gradient 30s ease infinite;
-  -moz-animation: background-gradient 30s ease infinite;
-  animation: background-gradient 30s ease infinite;
-}
+.parent
+  display: grid
+  grid-template-columns: repeat($num-columns, 1fr)
+  grid-column-gap: $spacing
+  grid-row-gap: $spacing
 
-.container {
-  position: fixed;
-  top: var(--spacing-2);
-  bottom: var(--spacing-2);
-  left: 50%;
-  transform: translateX(-50%);
-  overflow-y: auto;
-  width: var(--container-width);
-  position: fixed;
-  background: var(--white);
-  padding: var(--spacing-2);
-  border-radius: var(--unit-radius);
-  border: 2px solid var(--black);
-  box-sizing: content-box;
-}
-.parent {
-  display: grid;
-  grid-template-columns: repeat(var(--num-columns), 1fr);
-  grid-column-gap: var(--spacing);
-  grid-row-gap: var(--spacing);
-}
-.item {
-  height: var(--unit-height);
-  background: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--unit-radius);
-  border: 2px solid var(--black);
-  overflow: hidden;
-}
+.item
+  height: $unit-height
+  background: $white
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: $unit-radius
+  border: 2px solid $black
+  overflow: hidden
 
-.item.no-box {
-  border: none;
-}
+  &.no-box
+    border: none
 
-.item.radius-2 {
-  border-radius: calc(var(--unit-radius) * 2);
-}
-.item.radius-3 {
-  border-radius: calc(var(--unit-radius) * 3);
-}
-.item.radius-4 {
-  border-radius: calc(var(--unit-radius) * 4);
-}
+  &.radius-2
+    border-radius: calc($unit-radius * 2)
 
-.item.col-2 {
-  grid-column: span 2;
-}
-.item.col-3 {
-  grid-column: span 3;
-}
-.item.col-4 {
-  grid-column: span 4;
-}
+  &.radius-3
+    border-radius: calc($unit-radius * 3)
 
-.item.row-2 {
-  height: calc(var(--unit-height) * 2 + var(--spacing));
-  grid-row: span 2;
-}
-.item.row-3 {
-  height: calc(var(--unit-height) * 3 + var(--spacing) * 2);
-  grid-row: span 2;
-}
-.item.row-4 {
-  height: calc(var(--unit-height) * 4 + var(--spacing) * 3);
-  grid-row: span 2;
-}
+  &.radius-4
+    border-radius: calc($unit-radius * 4)
 
-.item .item-image {
-  height: 100%;
-}
+  &.col-2
+    grid-column: span 2
 
-.item.collapse-container {
-  display: block;
-  height: auto;
-  max-height: var(--unit-height);
-  transition: max-height 0.7s ease-in-out;
-}
+  &.col-3
+    grid-column: span 3
 
-.item.collapse-container.open{
-  max-height: 999px;
-}
+  &.col-4
+    grid-column: span 4
 
-.item.collapse-container .collapse-toggle {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-  height: var(--unit-height);
-}
+  &.row-2
+    height: calc($unit-height * 2 + $spacing)
+    grid-row: span 2
 
-.collapse-content {
-  margin: 0 var(--spacing) var(--spacing-2) var(--spacing);
-}
+  &.row-3
+    height: calc($unit-height * 3 + $spacing * 2)
+    grid-row: span 2
 
-@-webkit-keyframes background-gradient {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 90%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-@-moz-keyframes background-gradient {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 90%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-@keyframes background-gradient {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 90%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
+  &.row-4
+    height: calc($unit-height * 4 + $spacing * 3)
+    grid-row: span 2
+
+  & &-image
+    height: 100%
+
+  &.collapse-container
+    display: block
+    height: auto
+    max-height: $unit-height
+    transition: max-height 0.7s ease-in-out
+
+  &.collapse-container.open
+    max-height: 999px
+
+  &.collapse-container .collapse-toggle
+    cursor: pointer
+    display: flex
+    align-items: center
+    justify-content: center
+    height: $unit-height
+
+.collapse-content
+  margin: 0 $spacing $spacing-2 $spacing
+
+@keyframes background-gradient
+  from
+    background-position: 50% 0%
+
+  50%
+    background-position: 50% 90%
+
+  100%
+    background-position: 50% 0%
