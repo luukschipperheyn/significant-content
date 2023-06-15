@@ -1,5 +1,4 @@
 import { graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
 import React from "react";
 

@@ -20,13 +20,38 @@ collections:
         label: "Landing Page"
         name: "index"
         fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "index-page",
-            }
-          - { label: Title, name: title, widget: string }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
-          - { label: Description, name: description, widget: string }
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "index-page"
+          - label: Title
+            name: title
+            widget: string
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Subheading
+            name: subheading
+            widget: string
+          - label: Description
+            name: description
+            widget: string
+          - label: "Blocks"
+            name: "blocks"
+            widget: list
+            types:
+              - label: "Empty Block"
+                name: "empty-block"
+                widget: object
+                fields:
+                  - label: Columns
+                    name: columns
+                    widget: select
+                    options: [1, 2, 3, 4]
+                  - label: Rows
+                    name: rows
+                    widget: select
+                    options: [1, 2, 3, 4]
+                  - label: Round
+                    name: round
+                    widget: boolean
