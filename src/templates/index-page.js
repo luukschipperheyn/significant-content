@@ -18,20 +18,21 @@ export const IndexPageTemplate = ({
       <div class="background"></div>
       <div class="container hide-scrollbar">
         <div class="parent">
-          {blocks.map((block) => {
-            switch (block.type) {
-              case "empty-block":
-                return (
-                  <div
-                    className={`item row-${block.rows} col-${
-                      block.columns
-                    } radius-${Math.min(block.rows, block.columns)}`}
-                  ></div>
-                );
-              default:
-                return <div className="item">{block.type}</div>;
-            }
-          })}
+          {blocks &&
+            blocks.map((block) => {
+              switch (block.type) {
+                case "empty-block":
+                  return (
+                    <div
+                      className={`item row-${block.rows} col-${
+                        block.columns
+                      } radius-${Math.min(block.rows, block.columns)}`}
+                    ></div>
+                  );
+                default:
+                  return <div className="item">{block.type}</div>;
+              }
+            })}
         </div>
       </div>
     </div>
