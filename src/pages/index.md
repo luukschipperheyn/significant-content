@@ -24,4 +24,12 @@ blocks:
     columns: 1
     rows: 1
     round: false
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: true
 ---
