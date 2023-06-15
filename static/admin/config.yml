@@ -43,7 +43,7 @@ collections:
               - label: "Empty Block"
                 name: "empty-block"
                 widget: object
-                summary: "{{fields.columns}} x {{fields.rows}} {{ fields.round ? 'round' : '' }}"
+                summary: "{{fields.columns}} x {{fields.rows}} {{ fields.round }}"
                 fields:
                   - label: Columns
                     name: columns
@@ -98,3 +98,6 @@ collections:
                     name: round
                     widget: boolean
                     default: false
+                  - label: Body
+                    name: body
+                    widget: markdown
