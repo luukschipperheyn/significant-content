@@ -62,7 +62,6 @@ collections:
                       - { label: "3", value: 3 }
                       - { label: "4", value: 4 }
                     default: { label: "1", value: 1 }
-                  - label: Rows
                   - label: Round
                     name: round
                     widget: boolean
