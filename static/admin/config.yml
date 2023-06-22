@@ -116,7 +116,7 @@ collections:
               - label: "Image Block"
                 name: "image-block"
                 widget: object
-                summary: '<img src="{{fields.image}}" style="height: 100px;"/>'
+                summary: "{{fields.description}}"
                 fields:
                   - label: Columns
                     name: columns
@@ -144,6 +144,9 @@ collections:
                     name: border
                     widget: boolean
                     default: true
+                  - label: Description
+                    name: description
+                    widget: string
                   - label: "Image"
                     name: image
                     widget: image
