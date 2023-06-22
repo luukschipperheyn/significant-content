@@ -113,3 +113,40 @@ collections:
                     media_library:
                       config:
                         multiple: true
+              - label: "Image Block"
+                name: "image-block"
+                widget: object
+                summary: "{{fields.image}}"
+                fields:
+                  - label: Columns
+                    name: columns
+                    widget: select
+                    options:
+                      - { label: "1", value: 1 }
+                      - { label: "2", value: 2 }
+                      - { label: "3", value: 3 }
+                      - { label: "4", value: 4 }
+                    default: 1
+                  - label: Rows
+                    name: rows
+                    widget: select
+                    options:
+                      - { label: "1", value: 1 }
+                      - { label: "2", value: 2 }
+                      - { label: "3", value: 3 }
+                      - { label: "4", value: 4 }
+                    default: 1
+                  - label: Round
+                    name: round
+                    widget: boolean
+                    default: false
+                  - label: Border
+                    name: border
+                    widget: boolean
+                    default: true
+                  - label: "Image"
+                    name: image
+                    widget: image
+                    media_library:
+                      config:
+                        multiple: false
