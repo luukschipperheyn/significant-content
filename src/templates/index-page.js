@@ -25,18 +25,16 @@ export const IndexPageTemplate = ({
                 case "empty-block":
                   return (
                     <div
-                      className={`item row-${block.rows} col-${
-                        block.columns
-                      } radius-${
-                        block.round
+                      className={`item row-${block.rows} col-${block.columns
+                        } radius-${block.round
                           ? 2 * Math.min(block.rows, block.columns)
                           : 1
-                      }`}
+                        }`}
                     ></div>
                   );
                 case "content-block":
-                  console.log({block})
-                  return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} />
+                  console.log({ block })
+                  return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} bottomImages={block.bottom_images} />
                 default:
                   return <div className="item"> <div className="title">{block.type}</div></div>;
               }
@@ -96,6 +94,7 @@ export const pageQuery = graphql`
           type
           label
           body
+          bottom_images
         }
       }
     }
