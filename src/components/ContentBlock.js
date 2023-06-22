@@ -12,20 +12,60 @@ const ContentBlock = ({
   bottomImages = [],
 }) => {
   const HTMLContent = remark().use(remarkHTML).processSync(body).toString();
+  const transitionTime = 500;
+  const [opening, setOpening] = React.useState(false);
+  const [closing, setClosing] = React.useState(false);
   const [open, setOpen] = React.useState(false);
+  const [display, setDisplay] = React.useState("none");
+  const [maxHeight, setMaxHeight] = React.useState(0);
+
+  const handleToggle = () => {
+    if (opening || closing) return;
+    if (open) {
+      setClosing(true);
+    } else {
+      setOpening(true);
+    }
+  };
+
+  React.useEffect(() => {
+    if (opening) {
+      setDisplay("block");
+      setTimeout(() => setMaxHeight(2000), 10);
+      setTimeout(() => {
+        setOpen(true);
+        setOpening(false);
+      }, transitionTime);
+    }
+  }, [opening]);
+
+  React.useEffect(() => {
+    if (closing) {
+      setMaxHeight(0);
+      setTimeout(() => {
+        setDisplay("none");
+        setOpen(false);
+        setClosing(false);
+      }, transitionTime);
+    }
+  }, [closing]);
+
   return (
     <>
       <div
         className={`item content-block-toggle row-${rows} col-${columns} radius-${
           round ? 2 * Math.min(rows, columns) : 1
         }`}
-        onClick={() => setOpen((open) => !open)}
+        onClick={() => handleToggle()}
       >
         <div className="title">{label}</div>
       </div>
       <div
         className="content-block-collapse"
-        style={{ maxHeight: open ? 3000 : 0 }}
+        style={{
+          display,
+          maxHeight,
+        }}
       >
         <div
           className={`content-block-body`}

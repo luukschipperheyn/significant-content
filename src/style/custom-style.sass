@@ -51,6 +51,36 @@ body
   border: 2px solid $black
   box-sizing: content-box
 
+  .radius-2
+    border-radius: calc($unit-radius * 2)
+
+  .radius-3
+    border-radius: calc($unit-radius * 3)
+
+  .radius-4
+    border-radius: calc($unit-radius * 4)
+
+  .col-2
+    grid-column: span 2
+
+  .col-3
+    grid-column: span 3
+
+  .col-4
+    grid-column: span $num-columns
+
+  .row-2
+    height: calc($unit-height * 2 + $spacing)
+    grid-row: span 2
+
+  .row-3
+    height: calc($unit-height * 3 + $spacing * 2)
+    grid-row: span 2
+
+  .row-4
+    height: calc($unit-height * 4 + $spacing * 3)
+    grid-row: span 2
+
 .parent
   display: grid
   grid-template-columns: repeat($num-columns, 1fr)
@@ -69,36 +99,6 @@ body
 
   &.no-box
     border: none
-
-  &.radius-2
-    border-radius: calc($unit-radius * 2)
-
-  &.radius-3
-    border-radius: calc($unit-radius * 3)
-
-  &.radius-4
-    border-radius: calc($unit-radius * 4)
-
-  &.col-2
-    grid-column: span 2
-
-  &.col-3
-    grid-column: span 3
-
-  &.col-4
-    grid-column: span $num-columns
-
-  &.row-2
-    height: calc($unit-height * 2 + $spacing)
-    grid-row: span 2
-
-  &.row-3
-    height: calc($unit-height * 3 + $spacing * 2)
-    grid-row: span 2
-
-  &.row-4
-    height: calc($unit-height * 4 + $spacing * 3)
-    grid-row: span 2
 
   & &-image
     height: 100%
@@ -132,7 +132,7 @@ body
 .content-block-collapse
   grid-column: span $num-columns
   overflow: hidden
-  transition: max-height 1s ease-in-out
+  transition: max-height 0.5s ease-in-out
 
 .content-block-bottom-images
   display: flex
