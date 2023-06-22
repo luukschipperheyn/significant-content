@@ -57,4 +57,7 @@ blocks:
 
 
       ![HNI](/img/hni.png "Het Nieuwe Instituut")
+    bottom-images:
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
 ---
