@@ -101,3 +101,9 @@ collections:
                   - label: Body
                     name: body
                     widget: markdown
+                  - label: "Bottom images"
+                    name: bottom-images
+                    widget: image
+                    media_library:
+                      config:
+                        multiple: true
