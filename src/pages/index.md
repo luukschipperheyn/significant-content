@@ -57,4 +57,36 @@ blocks:
     bottom-images:
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
+  - type: image-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396135/cld-sample.jpg
+  - type: image-block
+    columns: 1
+    rows: 1
+    round: true
+    border: true
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396123/samples/animals/kitten-playing.gif
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+  - type: image-block
+    columns: 2
+    rows: 2
+    round: true
+    border: true
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396136/cld-sample-2.jpg
+  - type: image-block
+    columns: 2
+    rows: 2
+    round: false
+    border: false
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396137/cld-sample-4.jpg
 ---
