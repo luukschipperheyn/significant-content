@@ -85,6 +85,7 @@ blocks:
 
 
       ![](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396113/samples/people/smiling-man.jpg)
+    slug: upcoming-event
   - type: image-block
     columns: 1
     rows: 1
