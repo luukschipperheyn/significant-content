@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
 }) => {
   useEffect(() => { 
     if (typeof window === 'undefined') return
+    if (!slug) return
     setTimeout(() => document.querySelector(`#${slug}`).scrollIntoView({behavior: 'smooth'}), 500)
   }, [slug])
   return (
