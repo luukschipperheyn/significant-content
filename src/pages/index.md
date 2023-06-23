@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Significant Content
 description: Artist talks with popular social media creators
-seoImage: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396123/samples/landscapes/nature-mountains.jpg
+seoImage: https://res.cloudinary.com/dksw77ej0/image/fetch/v1687556582/https://res.cloudinary.com/dksw77ej0/image/upload/f_auto%2Cq_auto/v1/samples/cloudinary-group%3F_a%3DAXCkEnI0
 blocks:
   - type: empty-block
     columns: 2
