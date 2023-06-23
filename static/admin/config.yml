@@ -14,9 +14,15 @@ public_folder: /img
 
 media_library:
   name: cloudinary
+  output_filename_only: false
   config:
     cloud_name: dksw77ej0
     api_key: 381242588879478
+    default_transformations:
+      - - fetch_format: auto
+          width: 420
+          quality: auto
+          crop: scale
 
 collections:
   - name: "pages"

@@ -48,8 +48,15 @@ module.exports = {
         // type: `twitter`,
         // maxResults: 22,
         // tags: true,
-        context: true,
+        // context: true,
         // prefix: `demo/animals`
+      },
+    },
+    {
+      resolve: `gatsby-transformer-cloudinary`,
+      options: {
+        // Add the `gatsbyImageData` resolver to `CloudinaryMedia`
+        transformTypes: [`CloudinaryMedia`],
       },
     },
     `gatsby-plugin-image`,

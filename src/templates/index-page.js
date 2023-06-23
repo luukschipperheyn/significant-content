@@ -7,11 +7,12 @@ import ImageBlock from "../components/ImageBlock";
 import Layout from "../components/Layout";
 import { Block } from "../components/Block";
 
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   slug,
-  blocks,
-  allCloudinaryMedia
+  blocks
 }) => {
   useEffect(() => {
     if (typeof window === 'undefined') return
@@ -23,9 +24,6 @@ export const IndexPageTemplate = ({
       <div className="background"></div>
       <div className="container hide-scrollbar">
         <div className="parent">
-          {allCloudinaryMedia.nodes.map((media, index) => {
-            return <img key={index} width="200px" src={media.secure_url} />
-          })}
           {blocks &&
             blocks.map((block, i) => {
               switch (block.type) {
@@ -62,11 +60,6 @@ const IndexPage = ({ pageContext }) => {
   const { slug, title, description } = pageContext
   const data = useStaticQuery(graphql`
   query IndexPageTemplate {
-    allCloudinaryMedia {
-      nodes {
-        secure_url
-      }
-    }
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
         blocks {
@@ -97,7 +90,6 @@ const IndexPage = ({ pageContext }) => {
       <IndexPageTemplate
         slug={slug}
         blocks={frontmatter.blocks}
-        allCloudinaryMedia={data.allCloudinaryMedia}
       />
     </Layout>
   );
