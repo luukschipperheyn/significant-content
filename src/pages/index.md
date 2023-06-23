@@ -62,9 +62,23 @@ blocks:
     columns: 1
     rows: 1
     round: false
-    border: true
+    border: false
     image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396135/cld-sample.jpg
     description: vrouw met hond
+  - type: content-block
+    label: upcoming event
+    columns: 3
+    rows: 1
+    round: false
+    open: true
+    body: >-
+      # yo
+
+
+      n﻿ew event buy tickets
+
+
+      ![](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396113/samples/people/smiling-man.jpg)
   - type: image-block
     columns: 1
     rows: 1
