@@ -9,7 +9,7 @@ const ContentBlock = ({
   rows,
   round,
   body,
-  bottomImages = [],
+  bottomImages,
   open: defaultOpen,
 }) => {
   const HTMLContent = remark().use(remarkHTML).processSync(body).toString();
@@ -72,7 +72,7 @@ const ContentBlock = ({
           className={`content-block-body`}
           dangerouslySetInnerHTML={{ __html: HTMLContent }}
         />
-        {bottomImages.length > 0 && (
+        {!!bottomImages && bottomImages.length > 0 && (
           <div className="content-block-bottom-images">
             {bottomImages.map((src) => (
               <div style={{ width: `${100 / (bottomImages.length + 1)}%` }}>
