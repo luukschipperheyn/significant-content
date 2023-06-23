@@ -67,7 +67,7 @@ const IndexPage = ({ pageContext }) => {
   query IndexPageTemplate {
     allCloudinaryMedia {
       nodes {
-        secure_url
+        gatsbyImageData(width: 420, placeholder: BLURRED)
       }
     }
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
