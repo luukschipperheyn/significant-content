@@ -11,17 +11,21 @@ import { Block } from "../components/Block";
 export const IndexPageTemplate = ({
   slug,
   blocks,
+  allCloudinaryMedia
 }) => {
-  useEffect(() => { 
+  useEffect(() => {
     if (typeof window === 'undefined') return
     if (!slug) return
-    setTimeout(() => document.querySelector(`#${slug}`).scrollIntoView({behavior: 'smooth'}), 500)
+    setTimeout(() => document.querySelector(`#${slug}`).scrollIntoView({ behavior: 'smooth' }), 500)
   }, [slug])
   return (
     <div>
       <div className="background"></div>
       <div className="container hide-scrollbar">
         <div className="parent">
+          {allCloudinaryMedia.nodes.map((media, index) => (
+            <img key={index} width="200px" src={media.secure_url} />
+          ))}
           {blocks &&
             blocks.map((block, i) => {
               switch (block.type) {
@@ -37,7 +41,7 @@ export const IndexPageTemplate = ({
                 case "gradient-block":
                   return <Block key={`block-${i}`} block={block} />
                 case "text-block":
-                  return <Block key={`block-${i}`} block={block}><div className="title">{ block.text }</div></Block>
+                  return <Block key={`block-${i}`} block={block}><div className="title">{block.text}</div></Block>
                 default:
                   return <div key={`block-${i}`} className="item"> <div className="title">{block.type}</div></div>;
               }
@@ -58,6 +62,11 @@ const IndexPage = ({ pageContext }) => {
   const { slug, title, description } = pageContext
   const data = useStaticQuery(graphql`
   query IndexPageTemplate {
+    allCloudinaryMedia {
+      nodes {
+        secure_url
+      }
+    }
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
         blocks {
@@ -88,6 +97,7 @@ const IndexPage = ({ pageContext }) => {
       <IndexPageTemplate
         slug={slug}
         blocks={frontmatter.blocks}
+        allCloudinaryMedia={data.allCloudinaryMedia}
       />
     </Layout>
   );
