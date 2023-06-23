@@ -5,7 +5,7 @@ import { withPrefix, graphql, useStaticQuery } from "gatsby";
 
 const TemplateWrapper = ({ title, description, slug, children }) => {
   const data = useStaticQuery(graphql`
-    query IndexPageTemplate {
+    query LayoutQuery {
       markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
         frontmatter {
           title
