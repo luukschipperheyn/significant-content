@@ -49,7 +49,8 @@ IndexPageTemplate.propTypes = {
   blocks: PropTypes.array,
 };
 
-const IndexPage = () => {
+const IndexPage = ({ pageContext }) => {
+  const { slug, title, description } = pageContext
   const data = useStaticQuery(graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
@@ -77,7 +78,7 @@ const IndexPage = () => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout slug={slug} title={title} description={description}>
       <IndexPageTemplate
         blocks={frontmatter.blocks}
       />

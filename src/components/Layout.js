@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import "../style/custom-style.sass";
-import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ title, description, slug, children }) => {
@@ -18,6 +17,7 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
     }
   `);
 
+  slug = slug || "";
   title = title || data.markdownRemark.frontMatter.title;
   description = description || data.markdownRemark.frontMatter.description;
 
@@ -55,7 +55,7 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content={slug ? `/${slug}` : "/"} />
+        <meta property="og:url" content={`/${slug}`} />
         <meta
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}
