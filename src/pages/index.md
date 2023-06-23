@@ -146,6 +146,20 @@ blocks:
 
 
       ![henk](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg "henk")
+
+
+      h﻿ier is een youtube filmpje
+
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FyLARr6Nd4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+      ```
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FyLARr6Nd4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      ```
     open: false
     slug: henk
     round: false
