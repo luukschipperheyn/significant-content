@@ -118,9 +118,15 @@ blocks:
     description: voedsel
   - type: gradient-block
     columns: 1
-    rows: 1
+    rows: 2
     round: false
     border: false
     color1: "#c1a2f2"
     color2: "#ffc540"
+  - type: text-block
+    columns: 3
+    rows: 2
+    round: false
+    border: false
+    text: yoooo hier staat wat tekst
 ---
