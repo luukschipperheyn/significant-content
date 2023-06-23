@@ -9,26 +9,32 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
   knowledge to anyone.
 blocks:
   - type: empty-block
+    border: true
     columns: 1
     rows: 1
     round: false
   - type: empty-block
+    border: true
     columns: 2
     rows: 2
     round: true
   - type: empty-block
+    border: true
     columns: 1
     rows: 1
     round: false
   - type: empty-block
+    border: true
     columns: 1
     rows: 1
     round: false
   - type: empty-block
+    border: true
     columns: 1
     rows: 1
     round: false
   - type: empty-block
+    border: true
     columns: 1
     rows: 1
     round: true
@@ -87,10 +93,12 @@ blocks:
     image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396123/samples/animals/kitten-playing.gif
     description: kattengifje
   - type: empty-block
+    border: true
     columns: 1
     rows: 1
     round: false
   - type: empty-block
+    border: true
     columns: 1
     rows: 1
     round: false
