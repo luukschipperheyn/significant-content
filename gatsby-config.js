@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Significant Content",
     description: "Artist talks with popular social media creators",
+    siteUrl: "https://significantcontent.com",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -88,6 +89,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };
