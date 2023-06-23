@@ -18,8 +18,8 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
   `);
 
   slug = slug || "";
-  title = title || data.markdownRemark.frontMatter.title;
-  description = description || data.markdownRemark.frontMatter.description;
+  title = title || data.markdownRemark.frontmatter.title;
+  description = description || data.markdownRemark.frontmatter.description;
 
   return (
     <div>
