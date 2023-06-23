@@ -86,6 +86,10 @@ collections:
                     name: label
                     widget: string
                     default: ""
+                  - label: Slug
+                    name: slug
+                    widget: string
+                    required: false
                   - label: Columns
                     name: columns
                     widget: select

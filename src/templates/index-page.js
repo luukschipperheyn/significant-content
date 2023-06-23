@@ -1,4 +1,4 @@
-import { graphql } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import ContentBlock from "../components/ContentBlock";
@@ -54,7 +54,35 @@ IndexPageTemplate.propTypes = {
   blocks: PropTypes.array,
 };
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+  query IndexPageTemplate {
+    markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
+      frontmatter {
+        title
+        heading
+        subheading
+        description
+        blocks {
+          columns
+          round
+          rows
+          type
+          label
+          body
+          bottom_images
+          image
+          border
+          color1
+          color2
+          description
+          open
+          text
+        }
+      }
+    }
+  }
+  `)
   const { frontmatter } = data.markdownRemark;
 
   return (
@@ -70,41 +98,5 @@ const IndexPage = ({ data }) => {
   );
 };
 
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-};
-
 export default IndexPage;
 
-export const pageQuery = graphql`
-query IndexPageTemplate {
-  markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
-    frontmatter {
-      title
-      heading
-      subheading
-      description
-      blocks {
-        columns
-        round
-        rows
-        type
-        label
-        body
-        bottom_images
-        image
-        border
-        color1
-        color2
-        description
-        open
-        text
-      }
-    }
-  }
-}
-`;
