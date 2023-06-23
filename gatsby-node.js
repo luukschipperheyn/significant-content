@@ -32,7 +32,7 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
       if (block.slug) {
         console.log(`creating page for ${block.slug}`);
         createPage({
-          path: "/",
+          path: `/${block.slug}`,
           component: path.resolve(`src/templates/index-page.js`),
           context: {
             slug: block.slug,
