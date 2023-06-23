@@ -7,8 +7,6 @@ import ImageBlock from "../components/ImageBlock";
 import Layout from "../components/Layout";
 import { Block } from "../components/Block";
 
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   slug,
@@ -26,8 +24,7 @@ export const IndexPageTemplate = ({
       <div className="container hide-scrollbar">
         <div className="parent">
           {allCloudinaryMedia.nodes.map((media, index) => {
-            const image = getImage(media);
-            return <GatsbyImage key={index} image={image} />;
+            return <img key={index} width="200px" src={media.secure_url} />
           })}
           {blocks &&
             blocks.map((block, i) => {
@@ -67,7 +64,7 @@ const IndexPage = ({ pageContext }) => {
   query IndexPageTemplate {
     allCloudinaryMedia {
       nodes {
-        gatsbyImageData(width: 420, placeholder: BLURRED)
+        secure_url
       }
     }
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {

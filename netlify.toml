@@ -5,8 +5,3 @@
   NODE_VERSION = "18.16.0"
   YARN_VERSION = "1.22.19"
   YARN_FLAGS = "--no-ignore-optional"
-[[plugins]]
-  package = "netlify-plugin-cloudinary"
-
-  [plugins.inputs]
-  cloudName = "dksw77ej0"
