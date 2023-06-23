@@ -116,4 +116,11 @@ blocks:
     border: false
     image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396137/cld-sample-4.jpg
     description: voedsel
+  - type: gradient-block
+    columns: 1
+    rows: 1
+    round: false
+    border: false
+    color1: "#c1a2f2"
+    color2: "#ffc540"
 ---
