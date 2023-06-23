@@ -90,6 +90,10 @@ collections:
                     name: slug
                     widget: string
                     required: false
+                  - label: Description
+                    name: description
+                    widget: string
+                    required: false
                   - label: Columns
                     name: columns
                     widget: select
