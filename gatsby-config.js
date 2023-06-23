@@ -54,10 +54,10 @@ module.exports = {
     },
     {
       resolve: `gatsby-transformer-cloudinary`,
-      // options: {
-      //   // Add the `gatsbyImageData` resolver to `CloudinaryMedia`
-      //   transformTypes: [`CloudinaryMedia`],
-      // },
+      options: {
+        // Add the `gatsbyImageData` resolver to `CloudinaryMedia`
+        transformTypes: [`CloudinaryMedia`],
+      },
     },
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
