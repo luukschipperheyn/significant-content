@@ -5,7 +5,7 @@ import remarkHTML from "remark-html";
 
 const ContentBlock = ({ block, ...props }) => {
   const HTMLContent = remark()
-    .use(remarkHTML)
+    .use(remarkHTML, { sanitize: false })
     .processSync(block.body)
     .toString();
   const transitionTime = 500;
