@@ -2,117 +2,39 @@
 templateKey: index-page
 title: Significant Content
 description: Artist talks with popular social media creators
-seoImage: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396121/samples/food/spices.jpg
+seoImage: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396123/samples/landscapes/nature-mountains.jpg
 blocks:
   - type: empty-block
-    border: true
-    columns: 1
-    rows: 1
-    round: false
-  - type: empty-block
-    border: true
-    columns: 2
-    rows: 2
-    round: true
-  - type: empty-block
-    border: true
-    columns: 1
-    rows: 1
-    round: false
-  - type: empty-block
-    border: true
-    columns: 1
-    rows: 1
-    round: false
-  - type: empty-block
-    border: true
-    columns: 1
-    rows: 1
-    round: false
-  - type: empty-block
-    border: true
-    columns: 1
-    rows: 1
-    round: true
-  - type: content-block
-    label: About
-    columns: 3
-    rows: 1
-    round: true
-    body: >-
-      # kopje
-
-
-      Content creators on social media are usually not approached like film directors, musicians or designers, while these creators make an important contribution to our daily media consumption and (digital) culture. In the Significant Content event series, popular creators on various social media platforms are offered an artist talk.
-
-
-      ![basketball](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396136/cld-sample-3.jpg "baketball")
-
-
-      ## s﻿ubkopje
-
-
-      Just as a significant figure in [mathematics](https://en.wikipedia.org/wiki/Mathematics) can make a difference in a calculation, the content of these creators can make a difference within the framework of a social media platform and reveal medium-specific characteristics of this platform. These creators often deploy very clever tactics that make their content work well within the medium they are using. By outlining the content and methods of these creators, meanwhile, it unravels how social media platforms work beneath the surface.
-
-
-      Significant Content was initiated by Sjef van Beers and Florian van Zandwijk. The two pilot events are made possible by the Creative Industries Fund NL.
-    bottom-images:
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
-    open: false
-  - type: image-block
-    columns: 1
-    rows: 1
-    round: false
-    border: false
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396135/cld-sample.jpg
-    description: vrouw met hond
-  - type: content-block
-    label: upcoming event
-    columns: 3
-    rows: 1
-    round: false
-    open: true
-    body: >-
-      # yo
-
-
-      n﻿ew event buy tickets
-
-
-      ![](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396113/samples/people/smiling-man.jpg)
-    slug: upcoming-event
-  - type: image-block
-    columns: 1
-    rows: 1
-    round: true
-    border: true
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396123/samples/animals/kitten-playing.gif
-    description: kattengifje
-  - type: empty-block
-    border: true
-    columns: 1
-    rows: 1
-    round: false
-  - type: empty-block
-    border: true
-    columns: 1
-    rows: 1
-    round: false
-  - type: image-block
     columns: 2
     rows: 2
     round: true
     border: true
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396136/cld-sample-2.jpg
-    description: bergtop
-  - type: image-block
-    columns: 2
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: text-block
+    columns: 3
     rows: 2
     round: false
     border: false
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396137/cld-sample-4.jpg
-    description: voedsel
+    text: hier staat iets
   - type: gradient-block
     columns: 1
     rows: 2
@@ -120,60 +42,90 @@ blocks:
     border: false
     color1: "#c1a2f2"
     color2: "#ffc540"
-  - type: text-block
-    columns: 3
-    rows: 2
-    round: false
-    border: false
-    text: yoooo hier staat wat tekst
   - type: image-block
     columns: 1
     rows: 1
-    round: false
+    round: true
     border: false
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg
-    description: henk
-  - body: >+
-      # H﻿enk
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396123/samples/animals/kitten-playing.gif
+    description: kat
+  - type: content-block
+    label: about
+    columns: 3
+    rows: 1
+    round: true
+    open: true
+    body: >-
+      # t﻿iteltje
 
 
-      h﻿enk is een gozer
+      h﻿ier staat iets
 
 
-      ![henk](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg "henk")
+      n﻿og iets
 
 
-      h﻿ier is een youtube filmpje
+      ![tas](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396119/samples/ecommerce/leather-bag-gray.jpg "tas")
 
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/FyLARr6Nd4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      v﻿erder typen
 
-    open: false
-    slug: henk
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dWw8yjNk_-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    bottom-images:
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
+  - type: empty-block
+    columns: 1
+    rows: 1
     round: false
-    label: henk
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - body: >-
+      h﻿ier staat iets
+
+
+      ![bball](https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/upload/v1687396136/cld-sample-3.jpg "bball")
+    open: false
+    slug: upcoming
+    round: false
+    label: upcoming event
     rows: 1
     type: content-block
-    description: henk is een gozer
+    description: hier iets over het event
+    columns: 4
+  - type: empty-block
+    columns: 2
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 2
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 3
+    round: true
+    border: true
+  - type: empty-block
     columns: 3
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
+    rows: 3
     round: false
     border: true
 ---
