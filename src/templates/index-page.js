@@ -29,10 +29,8 @@ export const IndexPageTemplate = ({
                     <Block key={`block-${i}`} block={block} />
                   )
                 case "content-block":
-
                   block.open = !!slug && slug === block.slug
-                  console.log({open: block.open, slug, blockSlug: block.slug})
-                  return <ContentBlock index={i} block={block} />
+                  return <ContentBlock key={`block-${i}`} block={block} />
                 case "image-block":
                   return <ImageBlock key={`block-${i}`} block={block} />
                 case "gradient-block":

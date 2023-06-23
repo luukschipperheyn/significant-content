@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 
-const ContentBlock = ({ block, index, ...props }) => {
+const ContentBlock = ({ block, ...props }) => {
   const HTMLContent = remark()
     .use(remarkHTML)
     .processSync(block.body)
@@ -47,7 +47,7 @@ const ContentBlock = ({ block, index, ...props }) => {
   }, [closing]);
 
   return (
-    <React.Fragment key={`block-${index}`}>
+    <Fragment {...props}>
       <div
         className={`item content-block-toggle row-${block.rows} col-${
           block.columns
@@ -71,6 +71,7 @@ const ContentBlock = ({ block, index, ...props }) => {
         />
         {!!block.bottomImages && block.bottomImages.length > 0 && (
           <div className="content-block-bottom-images">
+            React
             {block.bottomImages.map((src, i) => (
               <div
                 key={`bottomImage-${block.label}-${i}`}
@@ -82,7 +83,7 @@ const ContentBlock = ({ block, index, ...props }) => {
           </div>
         )}
       </div>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
