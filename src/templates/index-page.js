@@ -9,11 +9,6 @@ import { Block } from "../components/Block";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
   blocks,
 }) => {
   return (
@@ -59,10 +54,6 @@ const IndexPage = () => {
   query IndexPageTemplate {
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
-        title
-        heading
-        subheading
-        description
         blocks {
           columns
           round
@@ -88,10 +79,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <IndexPageTemplate
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        description={frontmatter.description}
         blocks={frontmatter.blocks}
       />
     </Layout>

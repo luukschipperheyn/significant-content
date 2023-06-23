@@ -4,8 +4,23 @@ import "../style/custom-style.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata();
+const TemplateWrapper = ({ title, description, slug, children }) => {
+  const data = useStaticQuery(graphql`
+    query IndexPageTemplate {
+      markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+        frontmatter {
+          title
+          heading
+          subheading
+          description
+        }
+      }
+    }
+  `);
+
+  title = title || data.markdownRemark.frontMatter.title;
+  description = description || data.markdownRemark.frontMatter.description;
+
   return (
     <div>
       <Helmet>
@@ -38,9 +53,9 @@ const TemplateWrapper = ({ children }) => {
         />
         <meta name="theme-color" content="#fff" />
 
-        <meta property="og:type" content="business.business" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content={slug ? `/${slug}` : "/"} />
         <meta
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}

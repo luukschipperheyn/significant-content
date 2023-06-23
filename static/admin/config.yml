@@ -42,6 +42,12 @@ collections:
           - label: Description
             name: description
             widget: string
+          - label: "SEO image"
+            name: seoImage
+            widget: image
+            media_library:
+              config:
+                multiple: false
           - label: "Blocks"
             name: "blocks"
             widget: list
