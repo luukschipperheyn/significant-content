@@ -50,8 +50,6 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
   description: PropTypes.string,
   blocks: PropTypes.array,
 };

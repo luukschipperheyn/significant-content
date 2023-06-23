@@ -9,8 +9,6 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
       markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
         frontmatter {
           title
-          heading
-          subheading
           description
         }
       }
