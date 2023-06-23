@@ -5,6 +5,7 @@ import ContentBlock from "../components/ContentBlock";
 import ImageBlock from "../components/ImageBlock";
 
 import Layout from "../components/Layout";
+import { Block } from "../components/Block";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -25,18 +26,16 @@ export const IndexPageTemplate = ({
               switch (block.type) {
                 case "empty-block":
                   return (
-                    <div
-                      className={`item row-${block.rows} col-${block.columns
-                        } radius-${block.round
-                          ? 2 * Math.min(block.rows, block.columns)
-                          : 1
-                        }`}
-                    ></div>
+                    <Block block={block} />
                   )
-                  case "content-block":
-                  return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} bottomImages={block.bottom_images} open={block.open} />
-                  case "image-block":
-                    return <ImageBlock image={block.image} description={block.description} border={block.border} columns={block.columns} rows={block.rows} round={block.round} />
+                case "content-block":
+                  return <ContentBlock block={block} />
+                case "image-block":
+                  return <ImageBlock block={block} />
+                case "gradient-block":
+                  return <Block block={block} />
+                case "text-block":
+                  return <Block block={block}><div className="title">{ block.text }</div></Block>
                 default:
                   return <div className="item"> <div className="title">{block.type}</div></div>;
               }
@@ -82,25 +81,29 @@ IndexPage.propTypes = {
 export default IndexPage;
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
-      frontmatter {
-        title
-        heading
-        subheading
+query IndexPageTemplate {
+  markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
+    frontmatter {
+      title
+      heading
+      subheading
+      description
+      blocks {
+        columns
+        round
+        rows
+        type
+        label
+        body
+        bottom_images
+        image
+        border
+        color1
+        color2
         description
-        blocks {
-          columns
-          round
-          rows
-          type
-          label
-          body
-          bottom_images
-          image
-          border
-        }
+        open
       }
     }
   }
+}
 `;

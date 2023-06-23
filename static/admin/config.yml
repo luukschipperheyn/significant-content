@@ -165,7 +165,7 @@ collections:
               - label: "Gradient Block"
                 name: "gradient-block"
                 widget: object
-                summary: "{{fields.columns}} x {{fields.rows}} {{ fields.round }}"
+                summary: "{{fields.columns}} x {{fields.rows}} {{ fields.color1 }} {{ fields.color2 }}"
                 fields:
                   - label: Columns
                     name: columns
@@ -203,3 +203,37 @@ collections:
                     widget: color
                     default: "#ffc540"
                     allowInput: true
+              - label: "Text Block"
+                name: "text-block"
+                widget: object
+                summary: "{{fields.text }}"
+                fields:
+                  - label: Columns
+                    name: columns
+                    widget: select
+                    options:
+                      - { label: "1", value: 1 }
+                      - { label: "2", value: 2 }
+                      - { label: "3", value: 3 }
+                      - { label: "4", value: 4 }
+                    default: 1
+                  - label: Rows
+                    name: rows
+                    widget: select
+                    options:
+                      - { label: "1", value: 1 }
+                      - { label: "2", value: 2 }
+                      - { label: "3", value: 3 }
+                      - { label: "4", value: 4 }
+                    default: 1
+                  - label: Round
+                    name: round
+                    widget: boolean
+                    default: false
+                  - label: Border
+                    name: border
+                    widget: boolean
+                    default: true
+                  - label: Text
+                    name: text
+                    widget: string

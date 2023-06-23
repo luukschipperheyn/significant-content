@@ -3,20 +3,15 @@ import PropTypes from "prop-types";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 
-const ContentBlock = ({
-  label,
-  columns,
-  rows,
-  round,
-  body,
-  bottomImages,
-  open: defaultOpen,
-}) => {
-  const HTMLContent = remark().use(remarkHTML).processSync(body).toString();
+const ContentBlock = ({ block }) => {
+  const HTMLContent = remark()
+    .use(remarkHTML)
+    .processSync(block.body)
+    .toString();
   const transitionTime = 500;
   const [opening, setOpening] = React.useState(false);
   const [closing, setClosing] = React.useState(false);
-  const [open, setOpen] = React.useState(defaultOpen);
+  const [open, setOpen] = React.useState(block.open);
   const [display, setDisplay] = React.useState("none");
   const [maxHeight, setMaxHeight] = React.useState(0);
 
@@ -54,12 +49,12 @@ const ContentBlock = ({
   return (
     <>
       <div
-        className={`item content-block-toggle row-${rows} col-${columns} radius-${
-          round ? 2 * Math.min(rows, columns) : 1
-        }`}
+        className={`item content-block-toggle row-${block.rows} col-${
+          block.columns
+        } radius-${block.round ? 2 * Math.min(block.rows, block.columns) : 1}`}
         onClick={() => handleToggle()}
       >
-        <div className="title">{label}</div>
+        <div className="title">{block.label}</div>
       </div>
       <div
         className="content-block-collapse"
@@ -72,10 +67,12 @@ const ContentBlock = ({
           className={`content-block-body`}
           dangerouslySetInnerHTML={{ __html: HTMLContent }}
         />
-        {!!bottomImages && bottomImages.length > 0 && (
+        {!!block.bottomImages && block.bottomImages.length > 0 && (
           <div className="content-block-bottom-images">
-            {bottomImages.map((src) => (
-              <div style={{ width: `${100 / (bottomImages.length + 1)}%` }}>
+            {block.bottomImages.map((src) => (
+              <div
+                style={{ width: `${100 / (block.bottomImages.length + 1)}%` }}
+              >
                 <img src={src} alt="" />
               </div>
             ))}
@@ -84,15 +81,6 @@ const ContentBlock = ({
       </div>
     </>
   );
-};
-
-ContentBlock.propTypes = {
-  label: PropTypes.string,
-  columns: PropTypes.number,
-  rows: PropTypes.number,
-  round: PropTypes.bool,
-  body: PropTypes.string,
-  open: PropTypes.bool,
 };
 
 export default ContentBlock;
