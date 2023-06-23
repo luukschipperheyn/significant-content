@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({
                     ></div>
                   )
                   case "content-block":
-                    return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} bottomImages={block.bottom_images} />
+                  return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} bottomImages={block.bottom_images} open={block.open} />
                   case "image-block":
                     return <ImageBlock image={block.image} description={block.description} border={block.border} columns={block.columns} rows={block.rows} round={block.round} />
                 default:

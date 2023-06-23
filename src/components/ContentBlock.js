@@ -10,12 +10,13 @@ const ContentBlock = ({
   round,
   body,
   bottomImages = [],
+  open: defaultOpen,
 }) => {
   const HTMLContent = remark().use(remarkHTML).processSync(body).toString();
   const transitionTime = 500;
   const [opening, setOpening] = React.useState(false);
   const [closing, setClosing] = React.useState(false);
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(defaultOpen);
   const [display, setDisplay] = React.useState("none");
   const [maxHeight, setMaxHeight] = React.useState(0);
 
@@ -91,6 +92,7 @@ ContentBlock.propTypes = {
   rows: PropTypes.number,
   round: PropTypes.bool,
   body: PropTypes.string,
+  open: PropTypes.bool,
 };
 
 export default ContentBlock;

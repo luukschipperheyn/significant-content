@@ -104,6 +104,10 @@ collections:
                     name: round
                     widget: boolean
                     default: false
+                  - label: Open
+                    name: open
+                    widget: boolean
+                    default: false
                   - label: Body
                     name: body
                     widget: markdown
