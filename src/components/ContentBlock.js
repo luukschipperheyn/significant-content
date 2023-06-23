@@ -12,8 +12,8 @@ const ContentBlock = ({ block }) => {
   const [opening, setOpening] = React.useState(false);
   const [closing, setClosing] = React.useState(false);
   const [open, setOpen] = React.useState(block.open);
-  const [display, setDisplay] = React.useState("none");
-  const [maxHeight, setMaxHeight] = React.useState(0);
+  const [display, setDisplay] = React.useState(block.open ? "block" : "none");
+  const [maxHeight, setMaxHeight] = React.useState(block.open ? 2000 : 0);
 
   const handleToggle = () => {
     if (opening || closing) return;
