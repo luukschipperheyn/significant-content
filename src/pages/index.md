@@ -7,6 +7,7 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
   knowledge to anyone.
+seoImage: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396121/samples/food/spices.jpg
 blocks:
   - type: empty-block
     border: true
@@ -130,4 +131,47 @@ blocks:
     round: false
     border: false
     text: yoooo hier staat wat tekst
+  - type: image-block
+    columns: 1
+    rows: 1
+    round: false
+    border: false
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg
+    description: henk
+  - body: >-
+      # H﻿enk
+
+
+      h﻿enk is een gozer
+
+
+      ![henk](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg "henk")
+    open: false
+    slug: henk
+    round: false
+    label: henk
+    rows: 1
+    type: content-block
+    description: henk is een gozer
+    columns: 3
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
 ---
