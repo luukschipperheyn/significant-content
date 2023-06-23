@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import "../style/custom-style.sass";
-import { withPrefix } from "gatsby";
+import { withPrefix, graphql, useStaticQuery } from "gatsby";
 
 const TemplateWrapper = ({ title, description, slug, children }) => {
   const data = useStaticQuery(graphql`
