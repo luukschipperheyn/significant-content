@@ -36,7 +36,7 @@ blocks:
     label: About
     columns: 3
     rows: 1
-    round: false
+    round: true
     body: >-
       # kopje
 
