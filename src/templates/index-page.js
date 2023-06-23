@@ -2,6 +2,7 @@ import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import ContentBlock from "../components/ContentBlock";
+import ImageBlock from "../components/ImageBlock";
 
 import Layout from "../components/Layout";
 
@@ -31,10 +32,11 @@ export const IndexPageTemplate = ({
                           : 1
                         }`}
                     ></div>
-                  );
-                case "content-block":
-                  console.log({ block })
-                  return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} bottomImages={block.bottom_images} />
+                  )
+                  case "content-block":
+                    return <ContentBlock label={block.label} columns={block.columns} rows={block.rows} round={block.round} body={block.body} bottomImages={block.bottom_images} />
+                  case "image-block":
+                    return <ImageBlock image={block.image} description={block.description} border={block.border} columns={block.columns} rows={block.rows} round={block.round} />
                 default:
                   return <div className="item"> <div className="title">{block.type}</div></div>;
               }
@@ -81,7 +83,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
         title
         heading
@@ -95,6 +97,8 @@ export const pageQuery = graphql`
           label
           body
           bottom_images
+          image
+          border
         }
       }
     }
