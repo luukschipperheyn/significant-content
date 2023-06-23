@@ -102,6 +102,7 @@ query IndexPageTemplate {
         color2
         description
         open
+        text
       }
     }
   }
