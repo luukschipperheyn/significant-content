@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 
-const ContentBlock = ({ block }) => {
+const ContentBlock = ({ block, index, ...props }) => {
   const HTMLContent = remark()
     .use(remarkHTML)
     .processSync(block.body)
@@ -47,12 +47,14 @@ const ContentBlock = ({ block }) => {
   }, [closing]);
 
   return (
-    <>
+    <React.Fragment key={`block-${index}`}>
       <div
         className={`item content-block-toggle row-${block.rows} col-${
           block.columns
         } radius-${block.round ? 2 * Math.min(block.rows, block.columns) : 1}`}
         onClick={() => handleToggle()}
+        id={block.slug ? block.slug : undefined}
+        {...props}
       >
         <div className="title">{block.label}</div>
       </div>
@@ -69,8 +71,9 @@ const ContentBlock = ({ block }) => {
         />
         {!!block.bottomImages && block.bottomImages.length > 0 && (
           <div className="content-block-bottom-images">
-            {block.bottomImages.map((src) => (
+            {block.bottomImages.map((src, i) => (
               <div
+                key={`bottomImage-${block.label}-${i}`}
                 style={{ width: `${100 / (block.bottomImages.length + 1)}%` }}
               >
                 <img src={src} alt="" />
@@ -79,7 +82,7 @@ const ContentBlock = ({ block }) => {
           </div>
         )}
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

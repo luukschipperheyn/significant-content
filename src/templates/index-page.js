@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useEffect } from "react";
 import ContentBlock from "../components/ContentBlock";
 import ImageBlock from "../components/ImageBlock";
 
@@ -9,30 +9,38 @@ import { Block } from "../components/Block";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
+  slug,
   blocks,
 }) => {
+  useEffect(() => { 
+    if (typeof window === 'undefined') return
+    setTimeout(() => document.querySelector(`#${slug}`).scrollIntoView({behavior: 'smooth'}), 500)
+  }, [slug])
   return (
     <div>
       <div className="background"></div>
       <div className="container hide-scrollbar">
         <div className="parent">
           {blocks &&
-            blocks.map((block) => {
+            blocks.map((block, i) => {
               switch (block.type) {
                 case "empty-block":
                   return (
-                    <Block block={block} />
+                    <Block key={`block-${i}`} block={block} />
                   )
                 case "content-block":
-                  return <ContentBlock block={block} />
+
+                  block.open = !!slug && slug === block.slug
+                  console.log({open: block.open, slug, blockSlug: block.slug})
+                  return <ContentBlock index={i} block={block} />
                 case "image-block":
-                  return <ImageBlock block={block} />
+                  return <ImageBlock key={`block-${i}`} block={block} />
                 case "gradient-block":
-                  return <Block block={block} />
+                  return <Block key={`block-${i}`} block={block} />
                 case "text-block":
-                  return <Block block={block}><div className="title">{ block.text }</div></Block>
+                  return <Block key={`block-${i}`} block={block}><div className="title">{ block.text }</div></Block>
                 default:
-                  return <div className="item"> <div className="title">{block.type}</div></div>;
+                  return <div key={`block-${i}`} className="item"> <div className="title">{block.type}</div></div>;
               }
             })}
         </div>
@@ -70,6 +78,7 @@ const IndexPage = ({ pageContext }) => {
           description
           open
           text
+          slug
         }
       }
     }
@@ -80,6 +89,7 @@ const IndexPage = ({ pageContext }) => {
   return (
     <Layout slug={slug} title={title} description={description}>
       <IndexPageTemplate
+        slug={slug}
         blocks={frontmatter.blocks}
       />
     </Layout>
