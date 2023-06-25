@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
                     <Block key={`block-${i}`} block={block} />
                   )
                 case "content-block":
-                  block.open = !!slug && slug === block.slug
+                  block.open = block.open || !!slug && slug === block.slug
                   return <ContentBlock key={`block-${i}`} block={block} />
                 case "image-block":
                   return <ImageBlock key={`block-${i}`} block={block} />
