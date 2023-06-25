@@ -1,6 +1,12 @@
+$mob: 500px
+
+$font-size: 32px
+$font-size-mob: 28px
+
 $container-width: 420px
 $num-columns: 4
 $spacing: 12px
+$spacing-mob: 8px
 
 $black: #282828
 $white: #f0f0f2
@@ -13,5 +19,11 @@ $gradient-color-4: #ffffff
 $spacing-2: calc($spacing * 2)
 $spacing-3: calc($spacing * 3)
 $spacing-4: calc($spacing * 4)
+$spacing-mob-2: calc($spacing-mob * 2)
+$spacing-mob-3: calc($spacing-mob * 3)
+$spacing-mob-4: calc($spacing-mob * 4)
+
 $unit-height: calc(($container-width - ($num-columns - 1) * $spacing) / $num-columns)
+$unit-height-mob: calc((100vw - ($num-columns + 3) * $spacing-mob) / $num-columns)
 $unit-radius: calc($unit-height / $num-columns)
+$unit-radius-mob: calc($unit-height / $num-columns)

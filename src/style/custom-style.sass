@@ -14,7 +14,9 @@ body
 
 .title
   font-family: Manuka-Regular, sans-serif
-  font-size: 32px
+  font-size: $font-size
+  @media screen and ( max-width:  $mob)
+    font-size: $font-size-mob
 
 .hide-scrollbar
   -ms-overflow-style: none
@@ -36,6 +38,9 @@ body
   -moz-animation: background-gradient 30s ease infinite
   animation: background-gradient 30s ease infinite
 
+  @media only screen and (max-width: $mob)
+    display: none
+
 .container
   position: fixed
   top: $spacing-2
@@ -51,14 +56,29 @@ body
   border: 2px solid $black
   box-sizing: content-box
 
+  @media only screen and (max-width: $mob)
+    width: 100%
+    position: static
+    transform: none
+    border: none
+    box-sizing: border-box
+    border-radius: 0
+    padding: $spacing-mob-2
+
   .radius-2
     border-radius: calc($unit-radius * 2)
+    @media only screen and (max-width: $mob)
+      border-radius: calc($unit-radius-mob * 2)
 
   .radius-3
     border-radius: calc($unit-radius * 3)
+    @media only screen and (max-width: $mob)
+      border-radius: calc($unit-radius-mob * 3)
 
   .radius-4
     border-radius: calc($unit-radius * 4)
+    @media only screen and (max-width: $mob)
+      border-radius: calc($unit-radius-mob * 4)
 
   .col-2
     grid-column: span 2
@@ -72,20 +92,29 @@ body
   .row-2
     height: calc($unit-height * 2 + $spacing)
     grid-row: span 2
+    @media only screen and (max-width: $mob)
+      height: calc($unit-height-mob * 2 + $spacing)
 
   .row-3
     height: calc($unit-height * 3 + $spacing * 2)
     grid-row: span 2
+    @media only screen and (max-width: $mob)
+      height: calc($unit-height-mob * 3 + $spacing)
 
   .row-4
     height: calc($unit-height * 4 + $spacing * 3)
     grid-row: span 2
+    @media only screen and (max-width: $mob)
+      height: calc($unit-height-mob * 4 + $spacing)
 
 .parent
   display: grid
   grid-template-columns: repeat($num-columns, 1fr)
   grid-column-gap: $spacing
   grid-row-gap: $spacing
+  @media only screen and (max-width: $mob)
+    grid-column-gap: $spacing-mob
+    grid-row-gap: $spacing-mob
 
 .item
   height: $unit-height
@@ -96,6 +125,13 @@ body
   border-radius: $unit-radius
   border: 2px solid $black
   overflow: hidden
+
+  @media only screen and (max-width: $mob)
+    border-radius: $unit-radius-mob
+    height: $unit-height-mob
+
+  @media only screen and (max-width: $mob)
+    border-radius: $unit-radius-mob
 
   &.no-box
     border: none
@@ -118,11 +154,13 @@ body
   align-items: center
   justify-content: center
   height: $unit-height
-
-.collapse-content
-  margin: 0 $spacing $spacing-2 $spacing
+  @media only screen and (max-width: $mob)
+    height: $unit-height-mob
 
 .content-block-body
+  margin: 0 0 $spacing-mob-2 0
+  @media only screen and (max-width: $mob)
+    margin: 0 0 $spacing-mob-2 0
   .img-parent-container
     display: flex
     flex-direction: row
