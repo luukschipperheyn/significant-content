@@ -58,6 +58,12 @@ blocks:
       P﻿akhuis De Zwijger, Amsterdam
 
 
+      T﻿ICKETS
+
+
+      # S﻿peakers
+
+
       The Instagram meme page [@this.and.a.blunt](https://www.instagram.com/this.and.a.blunt) could be considered a so-called "shitposting" account. The images uploaded to the page seem random and aimless. They don't really have a punchline, but are humorous nonetheless. The pictures and videos are nearly always screenshots or screenrecordings from other places, resulting in a chaotic reflection of the online zeitgeist.
 
 
