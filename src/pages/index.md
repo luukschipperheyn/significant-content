@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Significant Content
 description: Artist talks with popular social media creators
-seoImage: https://res.cloudinary.com/dksw77ej0/image/fetch/v1687556582/https://res.cloudinary.com/dksw77ej0/image/upload/f_auto%2Cq_auto/v1/samples/cloudinary-group%3F_a%3DAXCkEnI0
+seoImage: https://sjefvanbeers.com/sc/img/logo_transparent_small.png
 blocks:
   - type: image-block
     columns: 4
