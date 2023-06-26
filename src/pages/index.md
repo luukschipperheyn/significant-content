@@ -11,60 +11,54 @@ blocks:
     border: false
     image: https://sjefvanbeers.com/sc/img/logo_transparent_small.png
     description: logo
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: true
-    border: true
-  - type: text-block
-    columns: 3
-    rows: 2
-    round: false
-    border: false
-    text: hier staat iets
-  - type: gradient-block
-    columns: 1
-    rows: 2
-    round: false
-    border: false
-    color1: "#c1a2f2"
-    color2: "#ffc540"
   - type: image-block
     columns: 1
     rows: 1
-    round: true
+    round: false
     border: false
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/v1687396123/samples/animals/kitten-playing.gif
-    description: kat
-  - type: content-block
-    label: about
-    columns: 3
+    image: https://sjefvanbeers.com/sc/img/yt.png
+    description: youtube
+  - type: image-block
+    columns: 1
+    rows: 1
+    round: false
+    border: false
+    image: https://sjefvanbeers.com/sc/img/ig.png
+    description: instagram
+  - type: image-block
+    columns: 1
+    rows: 1
+    round: false
+    border: false
+    image: https://sjefvanbeers.com/sc/img/tt.png
+    description: tiktok
+  - type: empty-block
+    columns: 1
     rows: 1
     round: true
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
+  - type: content-block
+    label: Upcoming event
+    columns: 3
+    rows: 1
+    round: false
     open: true
     body: >-
-      # t﻿iteltje
+      20.00 - 22.00
 
 
-      h﻿ier staat iets
+      26 October, 2023
 
 
-      n﻿og iets
+      P﻿akhuis De Zwijger, Amsterdam
+
+
+      The Instagram meme page [@this.and.a.blunt](https://www.instagram.com/this.and.a.blunt) could be considered a so-called "shitposting" account. The images uploaded to the page seem random and aimless. They don't really have a punchline, but are humorous nonetheless. The pictures and videos are nearly always screenshots or screenrecordings from other places, resulting in a chaotic reflection of the online zeitgeist.
 
 
       ![tas](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396119/samples/ecommerce/leather-bag-gray.jpg "tas")
@@ -77,11 +71,6 @@ blocks:
     bottom-images:
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
-    border: true
   - type: empty-block
     columns: 1
     rows: 1
@@ -119,11 +108,6 @@ blocks:
     columns: 2
     rows: 1
     round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 3
-    round: true
     border: true
   - type: empty-block
     columns: 3
