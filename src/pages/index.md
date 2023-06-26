@@ -93,18 +93,28 @@ blocks:
     round: false
     border: true
   - body: >-
-      h﻿ier staat iets
+      Content creators on social media are usually not approached like film
+      directors, musicians or designers, while these creators make an important
+      contribution to our daily media consumption and (digital) culture. In the
+      Significant Content event series, popular creators on various social media
+      platforms are offered an artist talk.
 
 
-      ![bball](https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/upload/v1687396136/cld-sample-3.jpg "bball")
-    open: false
+      Just as a significant figure in mathematics can make a difference in a calculation, the content of these creators can make a difference within the framework of a social media platform and reveal medium-specific characteristics of this platform. These creators often deploy very clever tactics that make their content work well within the medium they are using. By outlining the content and methods of these creators, meanwhile, it unravels how social media platforms work beneath the surface.
+
+
+      Significant Content was initiated by Sjef van Beers and Florian van Zandwijk. Significant Content is made possible by the Creative Industries Fund NL. 
+
+
+      ![]()
+    open: true
     slug: upcoming
-    round: false
+    round: true
     label: upcoming event
     rows: 1
     type: content-block
     description: hier iets over het event
-    columns: 4
+    columns: 3
   - type: empty-block
     columns: 2
     rows: 1
