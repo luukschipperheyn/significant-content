@@ -87,11 +87,13 @@ blocks:
     rows: 1
     round: false
     border: true
-  - type: empty-block
+  - type: gradient-block
     columns: 1
     rows: 1
     round: false
-    border: true
+    border: false
+    color1: "#FFC540"
+    color2: "#ffc540"
   - body: >-
       Content creators on social media are usually not approached like film
       directors, musicians or designers, while these creators make an important
@@ -108,13 +110,14 @@ blocks:
 
       ![]()
     open: true
-    slug: upcoming
+    slug: about
     round: true
-    label: upcoming event
+    label: " "
     rows: 1
+    bottom-images: https://significantcontent.com/sc/stimmy.png
     type: content-block
     description: hier iets over het event
-    columns: 3
+    columns: 1
   - type: empty-block
     columns: 2
     rows: 1
@@ -123,11 +126,23 @@ blocks:
   - type: empty-block
     columns: 2
     rows: 1
-    round: false
+    round: true
     border: true
   - type: empty-block
     columns: 3
     rows: 3
+    round: true
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 2
     round: false
     border: true
+  - type: gradient-block
+    columns: 1
+    rows: 1
+    round: false
+    border: false
+    color1: "#00FFAA"
+    color2: "#00E699"
 ---
