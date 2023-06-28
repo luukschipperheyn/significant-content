@@ -105,16 +105,15 @@ blocks:
       Just as a significant figure in mathematics can make a difference in a calculation, the content of these creators can make a difference within the framework of a social media platform and reveal medium-specific characteristics of this platform. These creators often deploy very clever tactics that make their content work well within the medium they are using. By outlining the content and methods of these creators, meanwhile, it unravels how social media platforms work beneath the surface.
 
 
-      Significant Content was initiated by Sjef van Beers and Florian van Zandwijk. Significant Content is made possible by the Creative Industries Fund NL. 
-
-
-      ![]()
+      Significant Content was initiated by Sjef van Beers and Florian van Zandwijk. Significant Content is made possible by the Creative Industries Fund NL.
     open: true
     slug: about
     round: true
     label: " "
     rows: 1
-    bottom-images: https://significantcontent.com/sc/stimmy.png
+    bottom-images:
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
     type: content-block
     description: hier iets over het event
     columns: 1
