@@ -132,11 +132,6 @@ blocks:
     rows: 3
     round: true
     border: true
-  - type: empty-block
-    columns: 1
-    rows: 2
-    round: false
-    border: true
   - type: gradient-block
     columns: 1
     rows: 1
@@ -144,4 +139,9 @@ blocks:
     border: false
     color1: "#00FFAA"
     color2: "#00E699"
+  - type: empty-block
+    columns: 1
+    rows: 2
+    round: false
+    border: true
 ---
