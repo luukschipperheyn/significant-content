@@ -265,14 +265,14 @@ collections:
                 widget: list
                 allow_add: true
                 add_to_top: true
-                field:
-                  {
-                    label: "archive Block",
-                    name: "archive-block",
-                    widget: object,
-                    fields:
-                      [
-                        { label: Label, name: label, widget: string },
-                        { label: Body, name: body, widget: markdown },
-                      ],
-                  }
+                fields:
+                  - {
+                      label: "henk Block",
+                      name: "henk-block",
+                      widget: object,
+                      fields:
+                        [
+                          { label: Label, name: label, widget: string },
+                          { label: Body, name: body, widget: markdown },
+                        ],
+                    }
