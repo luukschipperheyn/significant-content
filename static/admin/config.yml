@@ -52,16 +52,9 @@ collections:
             name: "blocks"
             widget: list
             types:
-              - label: "Archive"
+              - label: "Archive Button"
                 name: "archive-button"
-                widget: list
-                types:
-                  - label: "Huhh"
-                    name: huh
-                    widget: string
-                  - label: "Hahh"
-                    name: hah
-                    widget: string
+                widget: string
               - label: "Empty Block"
                 name: "empty-block"
                 widget: object
