@@ -129,8 +129,8 @@ blocks:
     round: false
     border: true
   - type: empty-block
-    columns: 1
-    rows: 1
+    columns: 3
+    rows: 3
     round: true
     border: true
   - type: empty-block
@@ -162,4 +162,15 @@ blocks:
     type: content-block
     description: hier iets over het event
     columns: 1
+archive:
+  - type: archive-block
+    label: spreker 1
+    body: d﻿asfdasafsd
+  - type: archive-block
+    label: naam 2
+    body: >-
+      j﻿a ja ja
+
+
+      ![geee](https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_jpg/v1687601686/https://res.cloudinary.com/dksw77ej0/image/upload/f_auto%2Cq_auto/v1/samples/landscapes/nature-mountains%3F_a%3DAXCkEnI0 "teee")
 ---
