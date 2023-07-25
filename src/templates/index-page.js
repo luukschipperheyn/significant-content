@@ -8,11 +8,13 @@ import Layout from "../components/Layout";
 import { Block } from "../components/Block";
 
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import Archive from "../components/Archive";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   slug,
-  blocks
+  blocks,
+  archive
 }) => {
   useEffect(() => {
     if (typeof window === 'undefined') return
@@ -44,6 +46,10 @@ export const IndexPageTemplate = ({
                   return <div key={`block-${i}`} className="item"> <div className="title">{block.type}</div></div>;
               }
             })}
+          <Archive archive={archive} />
+        </div>
+        <div>
+
         </div>
       </div>
     </div>
@@ -81,6 +87,10 @@ const IndexPage = ({ pageContext }) => {
           slug
           link
         }
+        archive {
+          label
+          body
+        }
       }
     }
   }
@@ -92,6 +102,7 @@ const IndexPage = ({ pageContext }) => {
       <IndexPageTemplate
         slug={slug}
         blocks={frontmatter.blocks}
+        archive={frontmatter.archive}
       />
     </Layout>
   );
