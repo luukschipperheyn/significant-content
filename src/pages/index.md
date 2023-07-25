@@ -135,11 +135,6 @@ blocks:
     rows: 3
     round: true
     border: true
-  - type: empty-block
-    columns: 1
-    rows: 2
-    round: false
-    border: true
   - type: gradient-block
     columns: 1
     rows: 1
