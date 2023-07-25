@@ -51,7 +51,7 @@ collections:
           - label: "Blocks"
             name: "blocks"
             widget: list
-            types:
+            fields:
               - label: "Archive Button"
                 name: "archive-button"
                 widget: string
