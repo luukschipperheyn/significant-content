@@ -260,9 +260,23 @@ collections:
                   - label: Text
                     name: text
                     widget: string
+              - label: "Archive Button"
+                name: "archive-button"
+                widget: string
+          - label: "Archive"
+            name: "archive"
+            widget: list
+            types:
               - label: "Archive Block"
                 name: "archive-block"
-                widget: list
-                add_to_top: true
-                field:
-                  { label: "bert Block", name: "bert-block", widget: string }
+                widget: object
+                summary: "{{fields.label}}"
+                fields:
+                  - label: Label
+                    name: label
+                    widget: string
+                    required: false
+                    default: ""
+                  - label: Body
+                    name: body
+                    widget: markdown
