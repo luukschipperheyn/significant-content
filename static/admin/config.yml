@@ -263,11 +263,11 @@ collections:
               - label: "Archive Block"
                 name: "archive-block"
                 widget: list
-                fields:
-                  - label: "Content Block"
-                    name: "content-block"
-                    widget: object
-                    summary: "{{fields.label}}"
+                field: {
+                    label: "Content Block",
+                    name: "content-block",
+                    widget: object,
+                    summary: "{{fields.label}}",
                     fields:
                       - label: Label
                         name: label
@@ -322,3 +322,4 @@ collections:
                         media_library:
                           config:
                             multiple: true
+                }
