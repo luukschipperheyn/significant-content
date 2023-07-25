@@ -51,10 +51,17 @@ collections:
           - label: "Blocks"
             name: "blocks"
             widget: list
-            fields:
-              - label: "Archive Button"
+            types:
+              - label: "Archive"
                 name: "archive-button"
-                widget: string
+                widget: list
+                types:
+                  - label: "Huhh"
+                    name: huh
+                    widget: string
+                  - label: "Hahh"
+                    name: hah
+                    widget: string
               - label: "Empty Block"
                 name: "empty-block"
                 widget: object
