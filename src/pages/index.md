@@ -43,6 +43,12 @@ blocks:
     rows: 1
     round: false
     border: true
+  - type: text-block
+    columns: 3
+    rows: 1
+    round: false
+    border: false
+    text: Upcoming event
   - body: >-
       20.00 - 22.00\
 
@@ -69,7 +75,7 @@ blocks:
     open: true
     border: false
     round: false
-    label: Upcoming event
+    label: ""
     rows: 1
     bottom-images:
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
@@ -145,7 +151,10 @@ blocks:
     round: true
     border: false
     text: yo text
-  - body: content block altijd open want geen label
+  - body: |-
+      # Hallo
+
+      content block altijd open want geen label
     open: false
     round: true
     border: true
