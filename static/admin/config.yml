@@ -263,7 +263,7 @@ collections:
               - label: "Archive Block"
                 name: "archive-block"
                 widget: list
-                types:
+                field:
                   - label: "Content Block"
                     name: "content-block"
                     widget: object
