@@ -118,18 +118,18 @@ blocks:
     description: hier iets over het event
     columns: 1
   - type: empty-block
-    columns: 2
+    columns: 1
     rows: 1
     round: false
     border: true
   - type: empty-block
-    columns: 2
+    columns: 1
     rows: 1
     round: true
     border: true
   - type: empty-block
-    columns: 3
-    rows: 3
+    columns: 1
+    rows: 1
     round: true
     border: true
   - type: gradient-block
