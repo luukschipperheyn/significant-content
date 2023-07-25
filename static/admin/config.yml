@@ -55,6 +55,8 @@ collections:
               - label: "Archive Button"
                 name: "archive-button"
                 widget: string
+                default: ""
+                required: false
               - label: "Empty Block"
                 name: "empty-block"
                 widget: object
