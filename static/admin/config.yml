@@ -265,62 +265,14 @@ collections:
                 widget: list
                 allow_add: true
                 add_to_top: true
-                fields:
-                  - label: "Content Block"
-                    name: "content-block"
-                    widget: object
-                    summary: "{{fields.label}}"
+                field:
+                  {
+                    label: "archive Block",
+                    name: "archive-block",
+                    widget: object,
                     fields:
-                      - label: Label
-                        name: label
-                        widget: string
-                        required: false
-                        default: ""
-                      - label: Slug
-                        name: slug
-                        widget: string
-                        required: false
-                      - label: Description
-                        name: description
-                        widget: string
-                        required: false
-                      - label: Columns
-                        name: columns
-                        widget: select
-                        options:
-                          - { label: "1", value: 1 }
-                          - { label: "2", value: 2 }
-                          - { label: "3", value: 3 }
-                          - { label: "4", value: 4 }
-                        default: 1
-                      - label: Rows
-                        name: rows
-                        widget: select
-                        options:
-                          - { label: "1", value: 1 }
-                          - { label: "2", value: 2 }
-                          - { label: "3", value: 3 }
-                          - { label: "4", value: 4 }
-                        default: 1
-                      - label: Round
-                        name: round
-                        widget: boolean
-                        default: false
-                      - label: Open
-                        name: open
-                        widget: boolean
-                        default: false
-                      - label: Border
-                        name: border
-                        widget: boolean
-                        default: true
-                      - label: Body
-                        name: body
-                        widget: markdown
-                      - label: "Bottom images"
-                        name: bottom-images
-                        widget: image
-                        required: false
-                        media_library:
-                          config:
-                            multiple: true
+                      [
+                        { label: Label, name: label, widget: string },
+                        { label: Body, name: body, widget: markdown },
+                      ],
+                  }
