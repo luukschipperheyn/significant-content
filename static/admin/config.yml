@@ -52,6 +52,9 @@ collections:
             name: "blocks"
             widget: list
             types:
+              - label: "Archive Button"
+                name: "archive-button"
+                widget: string
               - label: "Empty Block"
                 name: "empty-block"
                 widget: object
@@ -260,9 +263,6 @@ collections:
                   - label: Text
                     name: text
                     widget: string
-              - label: "Archive Button"
-                name: "archive-button"
-                widget: string
           - label: "Archive"
             name: "archive"
             widget: list
