@@ -270,6 +270,7 @@ collections:
                   - {
                       label: "henk Block",
                       name: "henk-block",
+                      allow_add: true,
                       widget: object,
                       fields:
                         [
