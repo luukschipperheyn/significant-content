@@ -82,13 +82,13 @@ blocks:
     round: true
     border: true
   - type: empty-block
-    columns: 3
-    rows: 3
+    columns: 2
+    rows: 2
     round: true
     border: true
   - type: gradient-block
-    columns: 4
-    rows: 4
+    columns: 1
+    rows: 1
     round: true
     border: false
     color1: "#FFC540"
