@@ -263,18 +263,6 @@ collections:
               - label: "Archive Block"
                 name: "archive-block"
                 widget: list
-                allow_add: true
                 add_to_top: true
-                fields:
-                  - { label: "bert Block", name: "bert-block", widget: string }
-                  - {
-                      label: "henk Block",
-                      name: "henk-block",
-                      allow_add: true,
-                      widget: object,
-                      fields:
-                        [
-                          { label: Label, name: label, widget: string },
-                          { label: Body, name: body, widget: markdown },
-                        ],
-                    }
+                field:
+                  { label: "bert Block", name: "bert-block", widget: string }
