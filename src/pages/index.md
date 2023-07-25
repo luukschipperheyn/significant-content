@@ -43,14 +43,7 @@ blocks:
     rows: 1
     round: false
     border: true
-  - type: content-block
-    label: Upcoming event
-    columns: 3
-    rows: 1
-    round: false
-    open: true
-    border: false
-    body: >-
+  - body: >-
       20.00 - 22.00
 
 
@@ -76,9 +69,16 @@ blocks:
 
 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/dWw8yjNk_-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    open: true
+    border: false
+    round: false
+    label: Upcoming event
+    rows: 1
     bottom-images:
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
+    type: content-block
+    columns: 3
   - type: empty-block
     columns: 2
     rows: 2
@@ -110,8 +110,8 @@ blocks:
       Significant Content was initiated by Sjef van Beers and Florian van Zandwijk. Significant Content is made possible by the Creative Industries Fund NL.
     open: true
     slug: about
-    round: true
     border: true
+    round: true
     label: " "
     rows: 1
     bottom-images:
@@ -147,9 +147,8 @@ blocks:
     rows: 1
     round: true
     border: false
-    text: ""
-  - body: >-
-      content block altijd open want geen label
+    text: yo text
+  - body: content block altijd open want geen label
     open: false
     round: true
     border: true
@@ -157,4 +156,8 @@ blocks:
     type: content-block
     description: hier iets over het event
     columns: 1
+  - type: archive-block
+    archive-block:
+      label: wattt
+      body: h﻿uhhh
 ---
