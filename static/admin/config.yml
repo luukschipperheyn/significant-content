@@ -266,6 +266,7 @@ collections:
                 allow_add: true
                 add_to_top: true
                 fields:
+                  - { label: "bert Block", name: "bert-block", widget: string }
                   - {
                       label: "henk Block",
                       name: "henk-block",
