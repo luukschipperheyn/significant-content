@@ -59,6 +59,7 @@ IndexPageTemplate.propTypes = {
 const IndexPage = ({ pageContext }) => {
   const { slug, title, description } = pageContext
   const data = useStaticQuery(graphql`
+
   query IndexPageTemplate {
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
@@ -78,6 +79,7 @@ const IndexPage = ({ pageContext }) => {
           open
           text
           slug
+          link
         }
       }
     }

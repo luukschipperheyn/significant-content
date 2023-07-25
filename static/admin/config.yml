@@ -91,6 +91,7 @@ collections:
                   - label: Label
                     name: label
                     widget: string
+                    required: false
                     default: ""
                   - label: Slug
                     name: slug
@@ -126,6 +127,10 @@ collections:
                     name: open
                     widget: boolean
                     default: false
+                  - label: Border
+                    name: border
+                    widget: boolean
+                    default: true
                   - label: Body
                     name: body
                     widget: markdown
@@ -176,6 +181,10 @@ collections:
                     media_library:
                       config:
                         multiple: false
+                  - label: "Link"
+                    name: link
+                    required: false
+                    widget: string
               - label: "Gradient Block"
                 name: "gradient-block"
                 widget: object

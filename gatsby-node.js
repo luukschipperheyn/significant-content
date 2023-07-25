@@ -57,3 +57,56 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     });
   }
 };
+
+exports.createSchemaCustomization = ({ actions }) => {
+  // const { createTypes } = actions;
+  // const typeDefs = `
+  //   interface Block {
+  //     type: String!
+  //   }
+  //   type AuthorJson implements Node & Block {
+  //     name: String!
+  //     firstName: String!
+  //     email: String!
+  //     joinedAt: Date
+  //   }
+  //   type ContributorJson implements Node & Block {
+  //     name: String!
+  //     firstName: String!
+  //     email: String!
+  //     receivedSwag: Boolean
+  //   }
+  // `;
+  // createTypes(typeDefs);
+};
+
+exports.createResolvers = ({ createResolvers }) => {
+  // const fullName = {
+  //   type: "String",
+  //   resolve(source, args, context, info) {
+  //     return source.firstName + " " + source.name;
+  //   },
+  // };
+  // const resolvers = {
+  //   Query: {
+  //     allTeamMembers: {
+  //       type: ["TeamMember"],
+  //       resolve: async (source, args, context, info) => {
+  //         // Whenever possible, use `limit` and `skip` on findAll calls to increase performance
+  //         const { entries } = await context.nodeModel.findAll({
+  //           type: "TeamMember",
+  //           query: { limit: args.limit, skip: args.skip },
+  //         });
+  //         return entries;
+  //       },
+  //     },
+  //   },
+  //   AuthorJson: {
+  //     fullName,
+  //   },
+  //   ContributorJson: {
+  //     fullName,
+  //   },
+  // };
+  // createResolvers(resolvers);
+};

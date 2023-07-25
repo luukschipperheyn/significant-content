@@ -18,6 +18,7 @@ blocks:
     border: false
     image: https://sjefvanbeers.com/sc/img/yt.png
     description: youtube
+    link: https://youtube.com
   - type: image-block
     columns: 1
     rows: 1
@@ -48,6 +49,7 @@ blocks:
     rows: 1
     round: false
     open: true
+    border: false
     body: >-
       20.00 - 22.00
 
@@ -78,19 +80,19 @@ blocks:
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
   - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
+    columns: 2
+    rows: 2
+    round: true
     border: true
   - type: empty-block
-    columns: 1
-    rows: 1
-    round: false
+    columns: 3
+    rows: 3
+    round: true
     border: true
   - type: gradient-block
-    columns: 1
-    rows: 1
-    round: false
+    columns: 4
+    rows: 4
+    round: true
     border: false
     color1: "#FFC540"
     color2: "#ffc540"
@@ -109,6 +111,7 @@ blocks:
     open: true
     slug: about
     round: true
+    border: true
     label: " "
     rows: 1
     bottom-images:
@@ -144,4 +147,19 @@ blocks:
     border: false
     color1: "#00FFAA"
     color2: "#00E699"
+  - type: text-block
+    columns: 1
+    rows: 1
+    round: true
+    border: false
+    text: ""
+  - body: >-
+      content block altijd open want geen label
+    open: false
+    round: true
+    border: true
+    rows: 1
+    type: content-block
+    description: hier iets over het event
+    columns: 1
 ---
