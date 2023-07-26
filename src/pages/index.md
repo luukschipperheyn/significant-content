@@ -162,6 +162,15 @@ blocks:
     type: content-block
     description: hier iets over het event
     columns: 1
+  - type: archive
+    items:
+      - label: henk
+        body: >-
+          H﻿allo hier staat tekst
+
+
+          ![henk](https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_jpg/v1687556582/https://res.cloudinary.com/dksw77ej0/image/upload/f_auto%2Cq_auto/cld-sample%3F_a%3DAXCkEnI0 "henk")
+    button-text: archief
 archive:
   - type: archive-block
     label: spreker 1
