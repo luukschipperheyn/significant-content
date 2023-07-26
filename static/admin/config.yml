@@ -48,6 +48,10 @@ collections:
             media_library:
               config:
                 multiple: false
+          - label: "background colors"
+            name: bg-colors
+            widget: list
+            field: { label: "Color", name: "color", widget: "color" }
           - label: "blocks"
             name: "blocks"
             widget: list
