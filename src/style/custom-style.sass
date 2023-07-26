@@ -90,17 +90,17 @@ h1, h2, h3, h4
   .radius-4
     border-radius: calc($unit-radius * 4 + $spacing)
     @media only screen and (max-width: $mob)
-      border-radius: calc($unit-radius-mob * 4)
+      border-radius: calc($unit-radius-mob * 4 + $spacing-mob)
 
   .radius-6
-    border-radius: calc($unit-radius * 6 + $spacing * 2)
+    border-radius: calc($unit-radius * 6 + $spacing-2)
     @media only screen and (max-width: $mob)
-      border-radius: calc($unit-radius-mob * 4)
+      border-radius: calc($unit-radius-mob * 4 + $spacing-mob-2)
 
   .radius-8
-    border-radius: calc($unit-radius * 8 + $spacing * 3)
+    border-radius: calc($unit-radius * 8 + $spacing-3)
     @media only screen and (max-width: $mob)
-      border-radius: calc($unit-radius-mob * 4)
+      border-radius: calc($unit-radius-mob * 4 + $spacing-mob-3)
 
   .col-2
     grid-column: span 2
