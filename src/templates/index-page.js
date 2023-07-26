@@ -69,7 +69,7 @@ const IndexPage = ({ pageContext }) => {
   query IndexPageTemplate {
     markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
-        blocks {
+        blocksa {
           columns
           round
           rows
@@ -101,7 +101,7 @@ const IndexPage = ({ pageContext }) => {
     <Layout slug={slug} title={title} description={description}>
       <IndexPageTemplate
         slug={slug}
-        blocks={frontmatter.blocks}
+        blocks={frontmatter.blocksa}
         archive={frontmatter.archive}
       />
     </Layout>

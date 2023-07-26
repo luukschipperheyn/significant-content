@@ -49,7 +49,7 @@ collections:
               config:
                 multiple: false
           - label: "Blocks"
-            name: "blocks"
+            name: "blocksa"
             widget: list
             types:
               - label: "Archive Button"
