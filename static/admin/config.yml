@@ -48,15 +48,17 @@ collections:
             media_library:
               config:
                 multiple: false
-          - label: "Blocksa"
-            name: "blocksa"
+          - label: "blocks"
+            name: "blocks"
             widget: list
             types:
               - label: "Archive Button"
                 name: "archive-button"
-                widget: string
-                default: ""
-                required: false
+                widget: object
+                fields:
+                  label: "button text"
+                  name: "button-text"
+                  widget: string
               - label: "Empty Block"
                 name: "empty-block"
                 widget: object

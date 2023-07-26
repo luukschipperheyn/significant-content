@@ -12,7 +12,7 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
     query IndexPageTemplate {
       markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
         frontmatter {
-          blocksa {
+          blocks {
             label
             description
             slug
@@ -26,7 +26,7 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
       return Promise.reject(result.errors);
     }
 
-    const { blocksa: blocks } = result.data.markdownRemark.frontmatter;
+    const { blocks: blocks } = result.data.markdownRemark.frontmatter;
 
     for (const block of blocks) {
       if (block.slug) {
