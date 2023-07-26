@@ -10,6 +10,7 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
         frontmatter {
           title
           description
+          seoImage
         }
       }
     }
@@ -29,6 +30,25 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
         <meta name="description" content={description} />
 
         <link rel="stylesheet" href="https://use.typekit.net/lnz7dne.css" />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest"></link>
 
         <link
           rel="apple-touch-icon"
@@ -58,10 +78,7 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={`/${slug}`} />
-        <meta
-          property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
-        />
+        <meta property="og:image" content={data.seoImage} />
       </Helmet>
       <div>{children}</div>
     </div>

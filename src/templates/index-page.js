@@ -6,8 +6,6 @@ import ImageBlock from "../components/ImageBlock";
 
 import Layout from "../components/Layout";
 import { Block } from "../components/Block";
-
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Archive from "../components/Archive";
 
 // eslint-disable-next-line

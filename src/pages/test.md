@@ -3,6 +3,11 @@ templateKey: index-page
 title: Significant Content
 description: Artist talks with popular social media creators
 seoImage: https://sjefvanbeers.com/sc/img/logo_transparent_small.png
+bg-colors:
+  - "#5e3e3e"
+  - "#49accf"
+  - "#ff13f4"
+  - "#b64848"
 blocks:
   - type: image-block
     columns: 4
@@ -43,15 +48,18 @@ blocks:
     rows: 1
     round: false
     border: true
+  - type: text-block
+    columns: 3
+    rows: 1
+    round: false
+    border: false
+    text: Upcoming event
   - body: >-
-      20.00 - 22.00
+      20.00 - 22.00\
 
+      26 October, 2023\
 
-      26 October, 2023
-
-
-      P﻿akhuis De Zwijger, Amsterdam
-
+      P﻿akhuis De Zwijger, Amsterdam\
 
       T﻿ICKETS
 
@@ -72,7 +80,7 @@ blocks:
     open: true
     border: false
     round: false
-    label: Upcoming event
+    label: ""
     rows: 1
     bottom-images:
       - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
@@ -85,13 +93,13 @@ blocks:
     round: true
     border: true
   - type: empty-block
-    columns: 3
-    rows: 3
+    columns: 2
+    rows: 2
     round: true
     border: true
   - type: gradient-block
-    columns: 4
-    rows: 4
+    columns: 1
+    rows: 1
     round: true
     border: false
     color1: "#FFC540"
@@ -121,18 +129,18 @@ blocks:
     description: hier iets over het event
     columns: 1
   - type: empty-block
-    columns: 2
+    columns: 1
     rows: 1
     round: false
     border: true
   - type: empty-block
-    columns: 2
-    rows: 1
+    columns: 3
+    rows: 3
     round: true
     border: true
   - type: empty-block
-    columns: 3
-    rows: 3
+    columns: 1
+    rows: 1
     round: true
     border: true
   - type: gradient-block
@@ -148,7 +156,10 @@ blocks:
     round: true
     border: false
     text: yo text
-  - body: content block altijd open want geen label
+  - body: |-
+      # Hallo
+
+      content block altijd open want geen label
     open: false
     round: true
     border: true
@@ -157,6 +168,13 @@ blocks:
     description: hier iets over het event
     columns: 1
   - type: archive
-    label: "archief"
-    items: []
+    label: archive
+    items:
+      - label: henk
+        body: >-
+          h﻿enk is een kerel
+
+
+          ![henk](https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_jpg/v1687537184/https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg "henk")
+archive: []
 ---
