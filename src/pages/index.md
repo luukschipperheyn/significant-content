@@ -7,6 +7,7 @@ bg-colors:
   - "#5e3e3e"
   - "#49accf"
   - "#ff13f4"
+  - "#b64848"
 blocks:
   - type: image-block
     columns: 4
