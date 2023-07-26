@@ -11,7 +11,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Archive from "../components/Archive";
 
 // eslint-disable-next-line
-export const IndexPageTemplate = ({ slug, blocks }) => {
+export const IndexPageTemplate = ({ slug, blocks, bgColors }) => {
   useEffect(() => {
     if (typeof window === "undefined") return;
     if (!slug) return;
@@ -23,9 +23,15 @@ export const IndexPageTemplate = ({ slug, blocks }) => {
       500
     );
   }, [slug]);
+  console.log(`linear-gradient( 0deg, ${bgColors.join(", ")})`);
   return (
     <div>
-      <div className="background"></div>
+      <div
+        className="background"
+        style={{
+          backgroundImage: `linear-gradient( 0deg, ${bgColors.join(", ")})`,
+        }}
+      ></div>
       <div className="container hide-scrollbar">
         <div className="parent">
           {blocks &&
@@ -76,6 +82,7 @@ const IndexPage = ({ pageContext }) => {
     query IndexPageTemplate {
       markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
         frontmatter {
+          bg_colors
           blocks {
             columns
             round
@@ -106,7 +113,11 @@ const IndexPage = ({ pageContext }) => {
 
   return (
     <Layout slug={slug} title={title} description={description}>
-      <IndexPageTemplate slug={slug} blocks={frontmatter.blocks} />
+      <IndexPageTemplate
+        slug={slug}
+        blocks={frontmatter.blocks}
+        bgColors={frontmatter.bg_colors}
+      />
     </Layout>
   );
 };
