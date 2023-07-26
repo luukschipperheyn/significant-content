@@ -48,7 +48,7 @@ collections:
             media_library:
               config:
                 multiple: false
-          - label: "Blocks"
+          - label: "Blocksa"
             name: "blocksa"
             widget: list
             types:
