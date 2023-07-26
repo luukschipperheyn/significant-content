@@ -56,9 +56,9 @@ collections:
                 name: "archive-button"
                 widget: object
                 fields:
-                  label: "button text"
-                  name: "button-text"
-                  widget: string
+                  - label: "button text"
+                    name: "button-text"
+                    widget: string
               - label: "Empty Block"
                 name: "empty-block"
                 widget: object
