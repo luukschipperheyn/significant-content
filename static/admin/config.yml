@@ -264,8 +264,8 @@ collections:
                 name: "archive"
                 widget: object
                 fields:
-                  - label: "button text"
-                    name: "button-text"
+                  - label: "label"
+                    name: "label"
                     widget: string
                   - label: "items"
                     name: items

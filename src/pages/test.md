@@ -156,4 +156,7 @@ blocks:
     type: content-block
     description: hier iets over het event
     columns: 1
+  - type: archive
+    label: "archief"
+    items: []
 ---

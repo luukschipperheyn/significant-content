@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import ContentBlock from "./ContentBlock";
 
-const Archive = ({ archive, ...props }) => {
+const Archive = ({ block, ...props }) => {
   const transitionTime = 500;
   const [opening, setOpening] = React.useState(false);
   const [closing, setClosing] = React.useState(false);
@@ -49,7 +49,7 @@ const Archive = ({ archive, ...props }) => {
         onClick={() => handleToggle()}
         {...props}
       >
-        <div className="title">Archief</div>
+        <div className="title">{block.label}</div>
       </div>
       <div
         className="content-block-collapse parent"
@@ -58,7 +58,7 @@ const Archive = ({ archive, ...props }) => {
           maxHeight,
         }}
       >
-        {archive.map((item) => (
+        {block.items.map((item) => (
           <ContentBlock
             block={{ ...item, border: true, rows: 1, columns: 4 }}
           />
