@@ -11,7 +11,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         title={data.title}
         description={data.description}
         blocks={data.blocks}
-        bgColors={data.bg_colors}
+        bgColors={data["bg-colors"]}
       />
     );
   } else {
