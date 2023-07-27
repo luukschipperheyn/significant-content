@@ -134,8 +134,8 @@ blocks:
     round: false
     border: true
   - type: empty-block
-    columns: 3
-    rows: 3
+    columns: 1
+    rows: 1
     round: true
     border: true
   - type: empty-block
@@ -146,7 +146,7 @@ blocks:
   - type: gradient-block
     columns: 1
     rows: 1
-    round: false
+    round: true
     border: false
     color1: "#00FFAA"
     color2: "#00E699"
