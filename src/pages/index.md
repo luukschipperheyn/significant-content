@@ -124,6 +124,12 @@ blocks:
 
 
           Recorded 7 October 2021 at Nieuwe Instituut, Rotterdam
+  - type: text-block
+    columns: 4
+    rows: 1
+    round: false
+    border: false
+    text: Significant Content
   - body: >-
       Content creators on social media are usually not approached like film
       directors, musicians or designers, while these creators make an important
