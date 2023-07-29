@@ -63,7 +63,7 @@ blocks:
     text: Upcoming event
   - body: |-
       20.00 - 22.00\
-      26 October, 2023\
+      26 October 2023\
       P﻿akhuis De Zwijger, Amsterdam
 
       S﻿peakers to be announced.
