@@ -133,7 +133,7 @@ blocks:
     rows: 1
     round: false
     border: false
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/c_scale,f_auto,q_auto,w_420/v1690628036/mail_eljymy.png
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/c_scale,f_auto,q_auto,w_420/v1690628786/mail_sbueua.png
     link: mailto:mail@sjefvanbeers.com;fl.vanzandwijk@gmail.com
     description: mail
   - type: empty-block
