@@ -95,12 +95,35 @@ blocks:
   - type: archive
     label: Archive
     items:
-      - label: henk
+      - label: "@driplist"
         body: >-
-          h﻿enk is een kerel
+          Somi Lynda, [@driplist](https://www.tiktok.com/@driplist), moved from
+          Nigeria to the Netherlands a couple of years ago. She uses surprising
+          situations she found herself in, in her new country of residence to
+          make TikTok videos. Using the platform's formats and tools she shows
+          Dutch habits and aspects of the culture natives might not even realize
+          they participate in.
 
 
-          ![henk](https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_jpg/v1687537184/https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg "henk")
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/W_4ftfJJr_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+          R﻿ecorded 7 October 2021 at Nieuwe Instituut, Rotterdam.
+      - label: TheSushiDragon
+        body: >-
+          Stefan Li, <a href="https://www.twitch.tv/thesushidragon"
+          target="blank">@TheSushiDragon</a>, is active on Twitch. His streams
+          look like video performances in which he is constantly flipping
+          between different cameras, applying video and sound effects in an
+          incredibly high pace and all in real time using a custom suit full of
+          buttons and toggles. In his own words he is “exploiting technology to
+          inject realtime imaginative content.”
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/lsp6S9ZShew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+          Recorded 7 October 2021 at Nieuwe Instituut, Rotterdam
   - body: >-
       Content creators on social media are usually not approached like film
       directors, musicians or designers, while these creators make an important
