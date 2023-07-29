@@ -4,10 +4,15 @@ title: Significant Content
 description: Artist talks with popular social media creators
 seoImage: https://sjefvanbeers.com/sc/img/logo_transparent_small.png
 bg-colors:
-  - "#5e3e3e"
-  - "#49accf"
-  - "#ff13f4"
-  - "#b64848"
+  - "#f0f0f2"
+  - "#ffc540"
+  - "#ffb200"
+  - "#f0f0f2"
+  - "#6300ff"
+  - "#c1a2f2"
+  - "#f0f0f2"
+  - "#00ffaa"
+  - "#00e699"
 blocks:
   - type: image-block
     columns: 4
@@ -23,7 +28,7 @@ blocks:
     border: false
     image: https://sjefvanbeers.com/sc/img/yt.png
     description: youtube
-    link: https://youtube.com
+    link: https://www.youtube.com/@significantcontent4322
   - type: image-block
     columns: 1
     rows: 1
@@ -31,6 +36,7 @@ blocks:
     border: false
     image: https://sjefvanbeers.com/sc/img/ig.png
     description: instagram
+    link: http://instagram.com/significantcontent
   - type: image-block
     columns: 1
     rows: 1
@@ -38,6 +44,7 @@ blocks:
     border: false
     image: https://sjefvanbeers.com/sc/img/tt.png
     description: tiktok
+    link: https://www.tiktok.com/@significantcontent
   - type: empty-block
     columns: 1
     rows: 1
@@ -54,56 +61,46 @@ blocks:
     round: false
     border: false
     text: Upcoming event
-  - body: >-
+  - body: |-
       20.00 - 22.00\
-
       26 October, 2023\
+      P﻿akhuis De Zwijger, Amsterdam
 
-      P﻿akhuis De Zwijger, Amsterdam\
-
-      T﻿ICKETS
-
-
-      # S﻿peakers
-
-
-      The Instagram meme page [@this.and.a.blunt](https://www.instagram.com/this.and.a.blunt) could be considered a so-called "shitposting" account. The images uploaded to the page seem random and aimless. They don't really have a punchline, but are humorous nonetheless. The pictures and videos are nearly always screenshots or screenrecordings from other places, resulting in a chaotic reflection of the online zeitgeist.
-
-
-      ![tas](https://res.cloudinary.com/dksw77ej0/image/upload/v1687396119/samples/ecommerce/leather-bag-gray.jpg "tas")
-
-
-      v﻿erder typen
-
-
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/dWw8yjNk_-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      S﻿peakers to be announced.
     open: true
     border: false
     round: false
     label: ""
     rows: 1
-    bottom-images:
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
+    bottom-images: ""
     type: content-block
     columns: 3
   - type: empty-block
     columns: 2
-    rows: 2
+    rows: 1
     round: true
     border: true
   - type: empty-block
     columns: 2
     rows: 2
-    round: true
+    round: false
     border: true
   - type: gradient-block
     columns: 1
     rows: 1
-    round: true
+    round: false
     border: false
     color1: "#FFC540"
     color2: "#ffc540"
+  - type: archive
+    label: Archive
+    items:
+      - label: henk
+        body: >-
+          h﻿enk is een kerel
+
+
+          ![henk](https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_jpg/v1687537184/https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg "henk")
   - body: >-
       Content creators on social media are usually not approached like film
       directors, musicians or designers, while these creators make an important
@@ -115,66 +112,34 @@ blocks:
       Just as a significant figure in mathematics can make a difference in a calculation, the content of these creators can make a difference within the framework of a social media platform and reveal medium-specific characteristics of this platform. These creators often deploy very clever tactics that make their content work well within the medium they are using. By outlining the content and methods of these creators, meanwhile, it unravels how social media platforms work beneath the surface.
 
 
-      Significant Content was initiated by Sjef van Beers and Florian van Zandwijk. Significant Content is made possible by the Creative Industries Fund NL.
+      Significant Content was initiated by [Sjef van Beers](http://sjefvanbeers.com) and [Florian van Zandwijk](http://www.florianvanzandwijk.nl/). Significant Content is made possible by the Creative Industries Fund NL.
     open: true
     slug: about
     border: true
     round: true
     label: " "
     rows: 1
-    bottom-images:
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
+    bottom-images: https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1690296187/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
     type: content-block
     description: hier iets over het event
     columns: 1
   - type: empty-block
+    columns: 1
+    rows: 1
+    round: true
+    border: true
+  - type: image-block
     columns: 1
     rows: 1
     round: false
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: true
-    border: true
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: true
-    border: true
-  - type: gradient-block
-    columns: 1
-    rows: 1
-    round: true
     border: false
-    color1: "#00FFAA"
-    color2: "#00E699"
-  - type: text-block
-    columns: 1
+    image: https://res.cloudinary.com/dksw77ej0/image/upload/c_scale,f_auto,q_auto,w_420/v1690628036/mail_eljymy.png
+    link: mailto:mail@sjefvanbeers.com;fl.vanzandwijk@gmail.com
+    description: mail
+  - type: empty-block
+    columns: 2
     rows: 1
-    round: true
-    border: false
-    text: yo text
-  - body: |-
-      # Hallo
-
-      content block altijd open want geen label
-    open: false
-    round: true
+    round: false
     border: true
-    rows: 1
-    type: content-block
-    description: hier iets over het event
-    columns: 1
-  - type: archive
-    label: archive
-    items:
-      - label: henk
-        body: >-
-          h﻿enk is een kerel
-
-
-          ![henk](https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_jpg/v1687537184/https://res.cloudinary.com/dksw77ej0/image/upload/v1687396110/samples/people/kitchen-bar.jpg "henk")
 archive: []
 ---
