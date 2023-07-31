@@ -107,6 +107,7 @@ const IndexPage = ({ pageContext }) => {
             }
             bottom_images {
               alt
+              link
               image {
                 childImageSharp {
                   gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
