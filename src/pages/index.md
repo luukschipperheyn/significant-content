@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Significant Content
 description: Artist talks with popular social media creators
-seoImage: https://sjefvanbeers.com/sc/img/logo_transparent_small.png
+seoImage: /img/logo_transparent_small.png
 bg-colors:
   - "#f0f0f2"
   - "#ffc540"
