@@ -48,6 +48,8 @@ const ContentBlock = ({ block, ...props }) => {
     }
   }, [closing]);
 
+  const bottomImages = block.bottom_images || block["bottom-images"];
+
   return (
     <Fragment {...props}>
       {!!block.label && (
@@ -75,9 +77,9 @@ const ContentBlock = ({ block, ...props }) => {
           className={`content-block-body`}
           dangerouslySetInnerHTML={{ __html: HTMLContent }}
         />
-        {!!block.bottom_images && (
+        {!!bottomImages && (
           <div className="content-block-bottom-images">
-            {block.bottom_images.map((item, i) => {
+            {bottomImages.map((item, i) => {
               console.log("hoi", item);
               if (!item.image) return;
               if (typeof item.image === "string") {
