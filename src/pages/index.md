@@ -151,7 +151,10 @@ blocks:
     round: true
     label: " "
     rows: 1
-    bottom-images: []
+    bottom-images:
+      - image: /img/stimmy.png
+        alt: stimuleringsfonds creatieve industrie
+        link: https://www.stimuleringsfonds.nl/
     type: content-block
     description: hier iets over het event
     columns: 1

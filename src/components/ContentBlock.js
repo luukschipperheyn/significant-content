@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const ContentBlock = ({ block, ...props }) => {
   console.log({ block }, block.open || !block.label);
@@ -74,18 +75,36 @@ const ContentBlock = ({ block, ...props }) => {
           className={`content-block-body`}
           dangerouslySetInnerHTML={{ __html: HTMLContent }}
         />
-        {/* {
-          !!block.bottom_image(
-            <div className="content-block-bottom-images">
-              <div
-                key={`bottomImage-${block.label}-${i}`}
-                style={{ width: `30%` }}
-              >
-                <img src={block.bottom_image} alt="" />
-              </div>
-            </div>
-          )
-        } */}
+        {!!block.bottom_images && (
+          <div className="content-block-bottom-images">
+            {block.bottom_images.map((item, i) => {
+              console.log("hoi", item);
+              if (!item.image) return;
+              if (typeof item.image === "string") {
+                return (
+                  <div
+                    style={{ width: `30%` }}
+                    key={`bottomImage-${block.label}-${i}`}
+                  >
+                    <img src={item.image} alt={item.alt} />
+                  </div>
+                );
+              } else {
+                return (
+                  <div
+                    style={{ width: `30%` }}
+                    key={`bottomImage-${block.label}-${i}`}
+                  >
+                    <GatsbyImage
+                      image={item.image.childImageSharp.gatsbyImageData}
+                      alt={item.alt}
+                    />
+                  </div>
+                );
+              }
+            })}
+          </div>
+        )}
       </div>
     </Fragment>
   );

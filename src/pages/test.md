@@ -83,8 +83,9 @@ blocks:
     label: ""
     rows: 1
     bottom-images:
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
+      - image: /img/stimmy.png
+        alt: stimuleringsfonds creatieve industrie
+        link: https://www.stimuleringsfonds.nl/
     type: content-block
     columns: 3
   - type: empty-block
@@ -123,8 +124,9 @@ blocks:
     label: " "
     rows: 1
     bottom-images:
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
+      - image: /img/stimmy.png
+        alt: stimuleringsfonds creatieve industrie
+        link: https://www.stimuleringsfonds.nl/
     type: content-block
     description: hier iets over het event
     columns: 1

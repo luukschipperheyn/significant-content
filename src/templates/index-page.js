@@ -105,6 +105,14 @@ const IndexPage = ({ pageContext }) => {
               label
               body
             }
+            bottom_images {
+              alt
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+                }
+              }
+            }
           }
         }
       }
