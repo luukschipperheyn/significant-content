@@ -12,18 +12,6 @@ local_backend: true
 media_folder: static/img
 public_folder: /img
 
-media_library:
-  name: cloudinary
-  output_filename_only: false
-  config:
-    cloud_name: dksw77ej0
-    api_key: 381242588879478
-    default_transformations:
-      - - fetch_format: auto
-          width: 420
-          quality: auto
-          crop: scale
-
 collections:
   - name: "pages"
     label: "Pages"
@@ -138,10 +126,13 @@ collections:
                   - label: Body
                     name: body
                     widget: markdown
-                  - label: "Bottom image"
-                    name: bottom-image
-                    widget: image
-                    required: false
+                  - name: bottom-images
+                    label: "Bottom Images"
+                    widget: list
+                    fields:
+                      - { name: image, label: Image, widget: image }
+                      - { name: alt, label: Alt, widget: string }
+                      - { name: link, label: Link, widget: string }
               - label: "Image Block"
                 name: "image-block"
                 widget: object

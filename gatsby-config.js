@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
@@ -36,27 +36,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/img`,
         name: "images",
-      },
-    },
-    {
-      resolve: `gatsby-source-cloudinary`,
-      options: {
-        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-        apiKey: process.env.CLOUDINARY_API_KEY,
-        apiSecret: process.env.CLOUDINARY_API_SECRET,
-        resourceType: `image`,
-        // type: `twitter`,
-        // maxResults: 22,
-        // tags: true,
-        // context: true,
-        // prefix: `demo/animals`
-      },
-    },
-    {
-      resolve: `gatsby-transformer-cloudinary`,
-      options: {
-        // Add the `gatsbyImageData` resolver to `CloudinaryMedia`
-        transformTypes: [`CloudinaryMedia`],
       },
     },
     `gatsby-plugin-image`,
