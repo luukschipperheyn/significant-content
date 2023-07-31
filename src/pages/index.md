@@ -94,7 +94,7 @@ blocks:
     color2: "#ffc540"
   - type: empty-block
     columns: 1
-    rows: 1
+    rows: 2
     round: true
     border: true
   - type: empty-block
@@ -134,11 +134,6 @@ blocks:
 
 
           Recorded 7 October 2021 at Nieuwe Instituut, Rotterdam
-  - type: empty-block
-    columns: 1
-    rows: 1
-    round: true
-    border: true
   - body: >-
       Content creators on social media are usually not approached like film
       directors, musicians or designers, while these creators make an important
