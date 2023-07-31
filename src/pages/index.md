@@ -147,12 +147,12 @@ blocks:
       Significant Content was initiated by [Sjef van Beers](http://sjefvanbeers.com) and [Florian van Zandwijk](http://www.florianvanzandwijk.nl/). Significant Content is made possible by the Creative Industries Fund NL.
     open: true
     slug: about
-    type: content-block
     border: true
     round: true
     label: " "
     rows: 1
     bottom-images: []
+    type: content-block
     description: hier iets over het event
     columns: 1
   - type: empty-block
@@ -165,7 +165,7 @@ blocks:
     rows: 1
     round: false
     border: false
-    image: https://res.cloudinary.com/dksw77ej0/image/upload/c_scale,f_auto,q_auto,w_420/v1690628786/mail_sbueua.png
+    image: /img/mail_sbueua.webp
     link: mailto:mail@sjefvanbeers.com;fl.vanzandwijk@gmail.com
     description: mail
   - type: empty-block
