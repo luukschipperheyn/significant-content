@@ -19,14 +19,14 @@ blocks:
     rows: 2
     round: false
     border: false
-    image: https://sjefvanbeers.com/sc/img/logo_transparent_small.png
+    image: /img/logo_transparent_small.png
     description: logo
   - type: image-block
     columns: 1
     rows: 1
     round: false
     border: false
-    image: https://sjefvanbeers.com/sc/img/yt.png
+    image: /img/yt.png
     description: youtube
     link: https://www.youtube.com/@significantcontent4322
   - type: image-block
@@ -34,7 +34,7 @@ blocks:
     rows: 1
     round: false
     border: false
-    image: https://sjefvanbeers.com/sc/img/ig.png
+    image: /img/ig.png
     description: instagram
     link: http://instagram.com/significantcontent
   - type: image-block
@@ -42,7 +42,7 @@ blocks:
     rows: 1
     round: false
     border: false
-    image: https://sjefvanbeers.com/sc/img/tt.png
+    image: /img/tt.png
     description: tiktok
     link: https://www.tiktok.com/@significantcontent
   - type: empty-block
@@ -72,7 +72,10 @@ blocks:
     round: false
     label: ""
     rows: 1
-    bottom-images: []
+    bottom-images:
+      - image: /img/stimmy.png
+        alt: stimuleringsfonds creatieve industrie
+        link: https://www.stimuleringsfonds.nl/
     type: content-block
     columns: 3
   - type: empty-block
