@@ -85,12 +85,14 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={`/${slug}`} />
-        <meta
-          property="og:image"
-          content={
-            data.markdownRemark.frontmatter.seoImage.childImageSharp.fixed.src
-          }
-        />
+        {data.markdownRemark.frontmatter.seoImage && (
+          <meta
+            property="og:image"
+            content={
+              data.markdownRemark.frontmatter.seoImage.childImageSharp.fixed.src
+            }
+          />
+        )}
       </Helmet>
       <div>{children}</div>
     </div>
