@@ -67,8 +67,6 @@ blocks:
       P﻿akhuis De Zwijger, Amsterdam
 
       S﻿peakers to be announced.
-
-      t﻿est
     open: true
     border: false
     round: false
