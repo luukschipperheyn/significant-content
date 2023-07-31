@@ -13,7 +13,7 @@ const ImageBlock = ({ block, ...props }) => {
       target="_blank"
     >
       {block.image && typeof block.image === "string" && (
-        <img src={block.image} />
+        <img className="item-image" src={block.image} />
       )}
       {block.image && block.image.childImageSharp && (
         <GatsbyImage
