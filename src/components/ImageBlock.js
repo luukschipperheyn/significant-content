@@ -1,7 +1,8 @@
 import * as React from "react";
-import PropTypes from "prop-types";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const ImageBlock = ({ block, ...props }) => {
+  console.log("yuh", block.image);
   return (
     <a
       className={`item row-${block.rows} col-${block.columns} radius-${
@@ -11,7 +12,14 @@ const ImageBlock = ({ block, ...props }) => {
       href={block.link || null}
       target="_blank"
     >
-      <img className="item-image" src={block.image} alt={block.description} />
+      {block.image && (
+        <GatsbyImage
+          image={block.image.childImageSharp.gatsbyImageData}
+          imgStyle={{ objectFit: "contain" }}
+          style={{ height: "100%" }}
+          objectFit="contain"
+        />
+      )}
     </a>
   );
 };

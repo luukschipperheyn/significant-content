@@ -88,7 +88,11 @@ const IndexPage = ({ pageContext }) => {
             type
             label
             body
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+              }
+            }
             border
             color1
             color2
