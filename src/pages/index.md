@@ -72,10 +72,7 @@ blocks:
     round: false
     label: ""
     rows: 1
-    bottom-images:
-      - image: /img/stimmy.png
-        alt: stimuleringsfonds creatieve industrie
-        link: https://www.stimuleringsfonds.nl/
+    bottom-images: []
     type: content-block
     columns: 3
   - type: empty-block
@@ -95,6 +92,16 @@ blocks:
     border: false
     color1: "#FFC540"
     color2: "#ffc540"
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: true
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
+    border: true
   - type: archive
     label: Archive
     items:
@@ -127,12 +134,11 @@ blocks:
 
 
           Recorded 7 October 2021 at Nieuwe Instituut, Rotterdam
-  - type: text-block
-    columns: 4
+  - type: empty-block
+    columns: 1
     rows: 1
-    round: false
-    border: false
-    text: Significant Content
+    round: true
+    border: true
   - body: >-
       Content creators on social media are usually not approached like film
       directors, musicians or designers, while these creators make an important
@@ -147,9 +153,9 @@ blocks:
       Significant Content was initiated by [Sjef van Beers](http://sjefvanbeers.com) and [Florian van Zandwijk](http://www.florianvanzandwijk.nl/). Significant Content is made possible by the Creative Industries Fund NL.
     open: true
     slug: about
-    border: true
-    round: true
-    label: " "
+    border: false
+    round: false
+    label: " Significant Content"
     rows: 1
     bottom-images:
       - image: /img/stimmy.png
@@ -157,11 +163,16 @@ blocks:
         link: https://www.stimuleringsfonds.nl/
     type: content-block
     description: hier iets over het event
-    columns: 1
+    columns: 4
   - type: empty-block
     columns: 1
     rows: 1
     round: true
+    border: true
+  - type: empty-block
+    columns: 1
+    rows: 1
+    round: false
     border: true
   - type: image-block
     columns: 1
@@ -172,7 +183,7 @@ blocks:
     link: mailto:mail@sjefvanbeers.com;fl.vanzandwijk@gmail.com
     description: mail
   - type: empty-block
-    columns: 2
+    columns: 1
     rows: 1
     round: false
     border: true
