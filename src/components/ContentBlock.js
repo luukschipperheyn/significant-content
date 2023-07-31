@@ -74,18 +74,18 @@ const ContentBlock = ({ block, ...props }) => {
           className={`content-block-body`}
           dangerouslySetInnerHTML={{ __html: HTMLContent }}
         />
-        {!!block.bottom_images && block.bottom_images.length > 0 && (
-          <div className="content-block-bottom-images">
-            {block.bottom_images.map((src, i) => (
+        {
+          !!block.bottom_image(
+            <div className="content-block-bottom-images">
               <div
                 key={`bottomImage-${block.label}-${i}`}
-                style={{ width: `${100 / (block.bottom_images.length + 1)}%` }}
+                style={{ width: `30%` }}
               >
-                <img src={src} alt="" />
+                <img src={block.bottom_image} alt="" />
               </div>
-            ))}
-          </div>
-        )}
+            </div>
+          )
+        }
       </div>
     </Fragment>
   );
