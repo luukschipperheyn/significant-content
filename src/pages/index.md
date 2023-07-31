@@ -147,13 +147,12 @@ blocks:
       Significant Content was initiated by [Sjef van Beers](http://sjefvanbeers.com) and [Florian van Zandwijk](http://www.florianvanzandwijk.nl/). Significant Content is made possible by the Creative Industries Fund NL.
     open: true
     slug: about
+    type: content-block
     border: true
     round: true
     label: " "
     rows: 1
-    bottom-images:
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
-      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
+    bottom-images: []
     description: hier iets over het event
     columns: 1
   - type: empty-block
