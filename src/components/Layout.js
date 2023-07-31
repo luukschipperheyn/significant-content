@@ -13,8 +13,8 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
           description
           seoImage {
             childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
+              fixed(width: 600) {
+                src
               }
             }
           }
@@ -88,7 +88,7 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
         <meta
           property="og:image"
           content={
-            data.markdownRemark.frontmatter.seoImage.childImageSharp.fluid.src
+            data.markdownRemark.frontmatter.seoImage.childImageSharp.fixed.src
           }
         />
       </Helmet>

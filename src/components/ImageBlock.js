@@ -2,7 +2,6 @@ import * as React from "react";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const ImageBlock = ({ block, ...props }) => {
-  console.log("yuh", block.image);
   return (
     <a
       className={`item row-${block.rows} col-${block.columns} radius-${
