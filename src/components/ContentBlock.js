@@ -84,24 +84,28 @@ const ContentBlock = ({ block, ...props }) => {
               if (!item.image) return;
               if (typeof item.image === "string") {
                 return (
-                  <div
-                    style={{ width: `30%` }}
+                  <a
+                    style={{ width: `30%`, display: "block" }}
                     key={`bottomImage-${block.label}-${i}`}
+                    href={item.link}
+                    tartge="_blank"
                   >
                     <img src={item.image} alt={item.alt} />
-                  </div>
+                  </a>
                 );
               } else {
                 return (
-                  <div
-                    style={{ width: `30%` }}
+                  <a
+                    style={{ width: `30%`, display: "block" }}
                     key={`bottomImage-${block.label}-${i}`}
+                    href={item.link}
+                    tartge="_blank"
                   >
                     <GatsbyImage
                       image={item.image.childImageSharp.gatsbyImageData}
                       alt={item.alt}
                     />
-                  </div>
+                  </a>
                 );
               }
             })}

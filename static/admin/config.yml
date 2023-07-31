@@ -132,7 +132,12 @@ collections:
                     fields:
                       - { name: image, label: Image, widget: image }
                       - { name: alt, label: Alt, widget: string }
-                      - { name: link, label: Link, widget: string }
+                      - {
+                          name: link,
+                          label: Link,
+                          widget: string,
+                          required: false,
+                        }
               - label: "Image Block"
                 name: "image-block"
                 widget: object
