@@ -12,6 +12,9 @@ const ImageBlock = ({ block, ...props }) => {
       href={block.link || null}
       target="_blank"
     >
+      {block.image && typeof block.image === "string" && (
+        <img src={block.image} />
+      )}
       {block.image && block.image.childImageSharp && (
         <GatsbyImage
           image={block.image.childImageSharp.gatsbyImageData}
