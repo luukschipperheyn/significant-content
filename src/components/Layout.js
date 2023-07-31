@@ -2,6 +2,7 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import "../style/custom-style.sass";
 import { withPrefix, graphql, useStaticQuery } from "gatsby";
+import { getImageData, getSrc } from "gatsby-plugin-image";
 
 const TemplateWrapper = ({ title, description, slug, children }) => {
   const data = useStaticQuery(graphql`
@@ -10,13 +11,17 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
         frontmatter {
           title
           description
-          seoImage
+          seoImage {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
   `);
-
-  console.log({ data });
 
   slug = slug || "";
   title = title
@@ -80,7 +85,12 @@ const TemplateWrapper = ({ title, description, slug, children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={`/${slug}`} />
-        <meta property="og:image" content={data.seoImage} />
+        <meta
+          property="og:image"
+          content={
+            data.markdownRemark.frontmatter.seoImage.childImageSharp.fluid.src
+          }
+        />
       </Helmet>
       <div>{children}</div>
     </div>
