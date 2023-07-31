@@ -5,7 +5,7 @@ import remarkHTML from "remark-html";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const ContentBlock = ({ block, ...props }) => {
-  console.log({ block }, block.open || !block.label);
+  // console.log({ block }, block.open || !block.label);
   const HTMLContent = remark()
     .use(remarkHTML, { sanitize: false })
     .processSync(block.body)
@@ -80,7 +80,7 @@ const ContentBlock = ({ block, ...props }) => {
         {!!bottomImages && (
           <div className="content-block-bottom-images">
             {bottomImages.map((item, i) => {
-              console.log("hoi", item);
+              // console.log("hoi", item);
               if (!item.image) return;
               if (typeof item.image === "string") {
                 return (

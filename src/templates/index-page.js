@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({ slug, blocks, bgColors }) => {
       500
     );
   }, [slug]);
-  console.log(`linear-gradient( 0deg, ${bgColors.join(", ")})`);
+  // console.log(`linear-gradient( 0deg, ${bgColors.join(", ")})`);
   return (
     <div>
       <div

@@ -30,7 +30,7 @@ exports.createPages = ({ actions: { createPage }, graphql }) => {
 
     for (const block of blocks) {
       if (block.slug) {
-        console.log(`creating page for ${block.slug}`);
+        // console.log(`creating page for ${block.slug}`);
         createPage({
           path: `/${block.slug}`,
           component: path.resolve(`src/templates/index-page.js`),
