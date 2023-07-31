@@ -42,8 +42,6 @@ const Archive = ({ block, ...props }) => {
 
   return (
     <Fragment {...props}>
-      <div className="item row-1 col-1 radius-2" />
-      <div className="item row-1 col-1" />
       <div
         className={`item content-block-toggle row-1 col-2`}
         onClick={() => handleToggle()}
