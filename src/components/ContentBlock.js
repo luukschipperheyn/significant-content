@@ -88,9 +88,13 @@ const ContentBlock = ({ block, ...props }) => {
                     style={{ width: `30%`, display: "block" }}
                     key={`bottomImage-${block.label}-${i}`}
                     href={item.link}
-                    tartge="_blank"
+                    target="_blank"
                   >
-                    <img src={item.image} alt={item.alt} />
+                    <img
+                      className="content-block-bottom-image"
+                      src={item.image}
+                      alt={item.alt}
+                    />
                   </a>
                 );
               } else {
@@ -99,11 +103,12 @@ const ContentBlock = ({ block, ...props }) => {
                     style={{ width: `30%`, display: "block" }}
                     key={`bottomImage-${block.label}-${i}`}
                     href={item.link}
-                    tartge="_blank"
+                    target="_blank"
                   >
                     <GatsbyImage
                       image={item.image.childImageSharp.gatsbyImageData}
                       alt={item.alt}
+                      className="content-block-bottom-image"
                     />
                   </a>
                 );
