@@ -76,6 +76,9 @@ blocks:
       - image: /img/stimmy.png
         alt: stimuleringsfonds creatieve industrie
         link: https://www.stimuleringsfonds.nl/
+      - image: /img/rutte-square.png
+        alt: test
+        link: https://overheid.nl
     type: content-block
     columns: 3
   - type: empty-block
