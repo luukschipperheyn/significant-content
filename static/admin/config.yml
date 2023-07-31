@@ -138,13 +138,10 @@ collections:
                   - label: Body
                     name: body
                     widget: markdown
-                  - label: "Bottom images"
-                    name: bottom-images
+                  - label: "Bottom image"
+                    name: bottom-image
                     widget: image
                     required: false
-                    media_library:
-                      config:
-                        multiple: true
               - label: "Image Block"
                 name: "image-block"
                 widget: object

@@ -88,7 +88,7 @@ const IndexPage = ({ pageContext }) => {
             type
             label
             body
-            bottom_images
+            bottom_image
             image
             border
             color1

@@ -72,7 +72,7 @@ blocks:
     round: false
     label: ""
     rows: 1
-    bottom-images: ""
+    bottom-images: []
     type: content-block
     columns: 3
   - type: empty-block
@@ -148,8 +148,9 @@ blocks:
     round: true
     label: " "
     rows: 1
-    bottom-images: https://res.cloudinary.com/dksw77ej0/image/fetch/c_scale,f_auto,q_auto,w_420/f_png/v1690296187/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
-    type: content-block
+    bottom-images:
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/stimmy.png
+      - https://res.cloudinary.com/dksw77ej0/image/fetch/v1687469441/https://res.cloudinary.com/dksw77ej0/image/fetch/v1687461200/https://main--gleaming-axolotl-ae8aa2.netlify.app/img/hni.png
     description: hier iets over het event
     columns: 1
   - type: empty-block
