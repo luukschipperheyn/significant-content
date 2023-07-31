@@ -74,7 +74,7 @@ const ContentBlock = ({ block, ...props }) => {
           className={`content-block-body`}
           dangerouslySetInnerHTML={{ __html: HTMLContent }}
         />
-        {
+        {/* {
           !!block.bottom_image(
             <div className="content-block-bottom-images">
               <div
@@ -85,7 +85,7 @@ const ContentBlock = ({ block, ...props }) => {
               </div>
             </div>
           )
-        }
+        } */}
       </div>
     </Fragment>
   );
