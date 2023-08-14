@@ -211,7 +211,7 @@ blocks:
     round: false
     border: false
     image: /img/mail_sbueua.webp
-    link: mailto:mail@sjefvanbeers.com;fl.vanzandwijk@gmail.com
+    link: mailto:mail@sjefvanbeers.com; fl.vanzandwijk@gmail.com
     description: mail
   - type: empty-block
     columns: 1
