@@ -119,6 +119,20 @@ blocks:
 
 
           R﻿ecorded 7 October 2021 at Nieuwe Instituut, Rotterdam.
+      - label: "@joan.of.arca"
+        body: >-
+          The page of Sophie Browning, <a
+          href="https://www.instagram.com/joan.of.arca"
+          target="blank">@joan.of.arca</a>, is a shitposting Instagram account
+          that, as the name suggests, has a focus on pop star Arca and their
+          music, as well as related artists. Ms. Of Arca also regularly posts
+          references to themselves and other befriended meme pages.
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0rzZhPQFGPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+          Recorded 16 December 2021 at Nieuwe Instituut, Rotterdam
       - label: TheSushiDragon
         body: >-
           Stefan Li, <a href="https://www.twitch.tv/thesushidragon"
@@ -134,6 +148,28 @@ blocks:
 
 
           Recorded 7 October 2021 at Nieuwe Instituut, Rotterdam
+      - label: "@this.and.a.blunt"
+        body: >-
+          The Instagram meme page <a
+          href="https://www.instagram.com/this.and.a.blunt"
+          target="blank">@this.and.a.blunt</a> could be considered a so-called
+          "shitposting" account. The images uploaded to the page seem random and
+          aimless. They don't really have a punchline, but are humorous
+          nonetheless. The pictures and videos are nearly always screenshots or
+          screenrecordings from other places, resulting in a chaotic reflection
+          of the online zeitgeist.
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0rzZhPQFGPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+          Recorded 16 December 2021 at Nieuwe Instituut, Rotterdam
+  - type: text-block
+    columns: 4
+    rows: 1
+    round: false
+    border: false
+    text: Significant Content
   - body: >-
       Content creators on social media are usually not approached like film
       directors, musicians or designers, while these creators make an important
@@ -150,7 +186,7 @@ blocks:
     slug: about
     border: false
     round: false
-    label: " Significant Content"
+    label: ""
     rows: 1
     bottom-images:
       - image: /img/stimmy.png
