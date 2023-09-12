@@ -72,6 +72,9 @@ blocks:
       With guests Kardashian Kolloquium and Hoog.
 
 
+      [🎫 T﻿ickets](https://significantcontent.stager.co/web/tickets/111340619)
+
+
       # K﻿ardashian Kolloquium
 
 
