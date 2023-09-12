@@ -61,12 +61,32 @@ blocks:
     round: false
     border: false
     text: Upcoming event
-  - body: |-
+  - body: >-
       20.00 - 22.00\
+
       26 October 2023\
+
       P﻿akhuis De Zwijger, Amsterdam
 
-      S﻿peakers to be announced.
+
+      With guests Kardashian Kolloquium and Hoog.
+
+
+      T﻿ickets available soon.
+
+
+      ![MJ Corey of Kardashian Kolloquium](/img/tumblr_inline_r4qluabgml1xt2jpu_500.jpg)
+
+
+      M﻿J Corey interprets the online and televised presence of Kardashian-Jenner family members using media theory. After starting out on Instagram, where she would write captions, she branched out to TikTok and YouTube. MJ also wrote pieces for outlets like the New Yorker and Vogue and is currently working on her first book.\
+
+      \
+
+      [I﻿nstagram](https://www.instagram.com/kardashian_kolloquium/)\
+
+      [T﻿ikTok](https://www.tiktok.com/@mjcoreywrites)\
+
+      [Y﻿ouTube](https://www.youtube.com/@kardashian_kolloquium)
     open: true
     border: false
     round: false
