@@ -89,14 +89,24 @@ blocks:
 
       [T﻿ikTok](https://www.tiktok.com/@mjcoreywrites)\
 
-      [Y﻿ouTube](https://www.youtube.com/@kardashian_kolloquium)
-
-
-
-
+      [Y﻿ouTube](https://www.youtube.com/@kardashian_kolloquium)[](https://www.youtube.com/@fern-tv)
+    open: true
+    border: false
+    round: false
+    label: ""
+    rows: 1
+    bottom-images: []
+    type: content-block
+    columns: 3
+  - type: content-block
+    label: ""
+    columns: 3
+    rows: 1
+    round: false
+    open: true
+    border: false
+    body: >-
       # Hoog
-
-
 
 
       ![](/img/hoog-sexscraper-sc-2.png)
@@ -107,15 +117,7 @@ blocks:
 
       [Hoog on YouTube](https://www.youtube.com/@romulushoog)\
 
-      [Fern on YouTube](https://www.youtube.com/@fern-tv)[](https://www.youtube.com/@fern-tv)
-    open: true
-    border: false
-    round: false
-    label: ""
-    rows: 1
-    bottom-images: []
-    type: content-block
-    columns: 3
+      [Fern on YouTube](https://www.youtube.com/@fern-tv)
   - type: empty-block
     columns: 2
     rows: 1
