@@ -62,7 +62,7 @@ blocks:
     border: false
     text: Upcoming event
   - body: >-
-      20.00 - 22.00\
+      20.00 – 22.00\
 
       26 October 2023\
 
@@ -73,6 +73,9 @@ blocks:
 
 
       T﻿ickets available soon.
+
+
+      # K﻿ardashian Kolloquium
 
 
       ![MJ Corey of Kardashian Kolloquium](/img/tumblr_inline_r4qluabgml1xt2jpu_500.jpg)
