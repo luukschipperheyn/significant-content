@@ -72,9 +72,6 @@ blocks:
       With guests Kardashian Kolloquium and Hoog.
 
 
-      T﻿ickets available soon.
-
-
       # K﻿ardashian Kolloquium
 
 
