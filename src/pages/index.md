@@ -74,8 +74,6 @@ blocks:
 
       [🎫 T﻿ickets](https://www.eventbrite.nl/e/significant-content-reboot-tickets-728293354027)\
 
-      \
-
       [♿ A﻿ccessibility](https://nieuweinstituut.nl/en/projects/plan-uw-bezoek/toegankelijkheid)
 
 
@@ -85,7 +83,7 @@ blocks:
       ![Annie Rauwerda of Depths of Wikipedia](/img/annie_dow.png)
 
 
-      Bored during the pandemic Annie Rauwerda started her Instagram page “Depths of Wikipedia” in April of 2020. Although originally intended to share strange, surprising, and interesting facts from the English Wikipedia among friends, the page has grown over a million followers. Rauwerda made a Twitter page, where the Wikipedia screenshots get posted as well. On TikTok she uses the @depthsofwikipedia handle to post personal stories, facts about Wikipedia, comedic videos and updates on her [perpetual stew](https://en.wikipedia.org/wiki/Perpetual_stew). 
+      Bored during the pandemic Annie Rauwerda started her Instagram page “Depths of Wikipedia” in April of 2020. Although originally intended to share strange, surprising, and interesting facts from the English Wikipedia among friends, the page has grown over a million followers. Annie made a Twitter page, where the Wikipedia screenshots get posted as well. On TikTok she uses the @depthsofwikipedia handle to post personal stories, facts about Wikipedia, comedic videos and updates on her [perpetual stew](https://en.wikipedia.org/wiki/Perpetual_stew). 
 
 
       [Instagram](https://www.instagram.com/depthsofwikipedia/)[](https://twitter.com/depthsofwiki)\
