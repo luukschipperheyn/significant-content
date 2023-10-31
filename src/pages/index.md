@@ -110,7 +110,7 @@ blocks:
       # Fashionlover4
 
 
-      ![](/img/ig_hni-03.png)
+      ![Michael of Fashionlover4](/img/ig_hni-03.png)
 
 
       Michael, aka Fashionlover4 or @hotfashiontakes, has an interest in fashion, but is also critical of the fashion world. On TikTok he posts short and snappy videos like tier lists, and explainer videos on topics like a specific garment or the history of a brand or designer. On his YouTube channel he posts longer video-essays that go more in-depth and visually often have a livestream-like composition where a green screen video of Michael is placed in a bottom corner on top of archival video footage. 
