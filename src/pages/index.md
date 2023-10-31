@@ -62,38 +62,37 @@ blocks:
     border: false
     text: Upcoming event
   - body: >-
-      20.00 – 22.00\
+      20.00 – 21.45\
 
-      26 October 2023\
+      29 November 2023\
 
-      P﻿akhuis De Zwijger, Amsterdam
-
-
-      With guests Kardashian Kolloquium and Hoog.
+      Nieuwe Instituut, Rotterdam
 
 
-      [🎫 T﻿ickets](https://significantcontent.stager.co/web/tickets/111340619)\
-
-      \
-
-      [♿ A﻿ccessibility](https://dezwijger.nl/about-us-en/accessibility)
+      With guests Depths of Wikipedia and Fashionlover4.
 
 
-      # K﻿ardashian Kolloquium
-
-
-      ![MJ Corey of Kardashian Kolloquium](/img/tumblr_inline_r4qluabgml1xt2jpu_500.jpg)
-
-
-      MJ Corey interprets the online and televised presence of Kardashian-Jenner family members using media theory. After starting out on Instagram, where she would write captions to accompany screenshots of Keeping Up with the Kardashians and post selfmade memes, she branched out to TikTok and YouTube to make video content as well. MJ also wrote pieces for outlets like the New Yorker and Vogue and is currently working on her first book.\
+      [🎫 T﻿ickets](https://www.eventbrite.nl/e/significant-content-reboot-tickets-728293354027)\
 
       \
 
-      [I﻿nstagram](https://www.instagram.com/kardashian_kolloquium/)\
+      [♿ A﻿ccessibility](https://nieuweinstituut.nl/en/projects/plan-uw-bezoek/toegankelijkheid)
 
-      [T﻿ikTok](https://www.tiktok.com/@mjcoreywrites)\
 
-      [Y﻿ouTube](https://www.youtube.com/@kardashian_kolloquium)[](https://www.youtube.com/@fern-tv)
+      # Depths of Wikipedia
+
+
+      ![Annie Rauwerda of Depths of Wikipedia](/img/annie_dow.png)
+
+
+      Bored during the pandemic Annie Rauwerda started her Instagram page “Depths of Wikipedia” in April of 2020. Although originally intended to share strange, surprising, and interesting facts from the English Wikipedia among friends, the page has grown over a million followers. Rauwerda made a Twitter page, where the Wikipedia screenshots get posted as well. On TikTok she uses the @depthsofwikipedia handle to post personal stories, facts about Wikipedia, comedic videos and updates on her [perpetual stew](https://en.wikipedia.org/wiki/Perpetual_stew). 
+
+
+      [Instagram](https://www.instagram.com/depthsofwikipedia/)[](https://twitter.com/depthsofwiki)\
+
+      [Twitter/X](https://twitter.com/depthsofwiki)\
+
+      [TikTok](https://www.tiktok.com/@depthsofwikipedia)[](https://www.youtube.com/@fern-tv)
     open: true
     border: false
     round: false
@@ -110,18 +109,24 @@ blocks:
     open: true
     border: false
     body: >-
-      # Hoog
+      # Fashionlover4
 
 
-      ![](/img/hoog-sexscraper-sc-2.png)
+      ![](/img/ig_hni-03.png)
 
 
-      Hoog started out as a YouTube-channel posting video essays about design. The video essay genre is one of the most prominent on the platform. Hoog essays maintain a consistent style, with 3D animation as one of its more distinctive elements and the use of genre defining elements such as archival footage, musical elements and voice over. Lately, Hoog started a joint venture with Simplicissimus as Fern, a new YouTube-channel where they post “armchair documentaries” in a similar style, but on a wider variety of topics, from McDonalds packaging to how The Netherlands should be considered a giant city. Only two years in, Hoog and Fern video’s clearly resonate with the YouTube audience, having passed a total of thirty million views to date.
+      Michael, aka Fashionlover4 or @hotfashiontakes, has an interest in fashion, but is also critical of the fashion world. On TikTok he posts short and snappy videos like tier lists, and explainer videos on topics like a specific garment or the history of a brand or designer. On his YouTube channel he posts longer video-essays that go more in-depth and visually often have a livestream-like composition where a green screen video of Michael is placed in a bottom corner on top of archival video footage. 
 
 
-      [Hoog on YouTube](https://www.youtube.com/@romulushoog)\
+      [TikTok](https://www.tiktok.com/@hotfashiontakes)\
 
-      [Fern on YouTube](https://www.youtube.com/@fern-tv)
+      [YouTube](https://www.youtube.com/@fashionlover4)[\
+
+      Instagram](https://www.instagram.com/fashionluver4/)\
+
+      [Patreon](https://www.patreon.com/fashionlover4)[\
+
+      Blog](https://fashionlover4.com/)
   - type: empty-block
     columns: 2
     rows: 1
