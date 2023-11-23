@@ -187,11 +187,14 @@ blocks:
         body: >-
           MJ Corey interprets the online and televised presence of
           Kardashian-Jenner family members using media theory. After starting
-          Kardashian Kolloquium on Instagram, where she would write captions to
-          accompany screenshots of Keeping Up with the Kardashians and post
-          self-made memes, she branched out to TikTok and YouTube to make video
-          content as well. MJ also wrote pieces for outlets like the New Yorker
-          and Vogue and is currently working on her first book.
+          [Kardashian
+          Kolloquium](https://www.instagram.com/kardashian_kolloquium/) on
+          Instagram, where she would write captions to accompany screenshots of
+          Keeping Up with the Kardashians and post self-made memes, she branched
+          out to [TikTok](https://www.tiktok.com/@mjcoreywrites) and
+          [YouTube](https://www.youtube.com/@kardashian_kolloquium) to make
+          video content as well. MJ also wrote pieces for outlets like the New
+          Yorker and Vogue and is currently working on her first book.
 
 
           <iframe width="560" height="315" src="https://www.youtube.com/embed/HG_gGL-Q-6o?si=EMAR9xJu6jVnAxGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
