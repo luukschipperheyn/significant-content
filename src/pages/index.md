@@ -182,7 +182,22 @@ blocks:
           <iframe width="560" height="315" src="https://www.youtube.com/embed/0rzZhPQFGPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-          Recorded 16 December 2021 at Nieuwe Instituut, Rotterdam
+          Recorded 16 December 2021 at Nieuwe Instituut, Rotterdam.
+      - label: Kardashian Kolloquium
+        body: >-
+          MJ Corey interprets the online and televised presence of
+          Kardashian-Jenner family members using media theory. After starting
+          Kardashian Kolloquium on Instagram, where she would write captions to
+          accompany screenshots of Keeping Up with the Kardashians and post
+          self-made memes, she branched out to TikTok and YouTube to make video
+          content as well. MJ also wrote pieces for outlets like the New Yorker
+          and Vogue and is currently working on her first book.
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HG_gGL-Q-6o?si=EMAR9xJu6jVnAxGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+          Recorded at Pakhuis de Zwijger, Amsterdam on 26 October 2023.
       - label: TheSushiDragon
         body: >-
           Stefan Li, <a href="https://www.twitch.tv/thesushidragon"
@@ -197,7 +212,7 @@ blocks:
           <iframe width="560" height="315" src="https://www.youtube.com/embed/lsp6S9ZShew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-          Recorded 7 October 2021 at Nieuwe Instituut, Rotterdam
+          Recorded 7 October 2021 at Nieuwe Instituut, Rotterdam.
       - label: "@this.and.a.blunt"
         body: >-
           The Instagram meme page <a
@@ -213,7 +228,7 @@ blocks:
           <iframe width="560" height="315" src="https://www.youtube.com/embed/0rzZhPQFGPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-          Recorded 16 December 2021 at Nieuwe Instituut, Rotterdam
+          Recorded 16 December 2021 at Nieuwe Instituut, Rotterdam.
   - type: text-block
     columns: 4
     rows: 1
