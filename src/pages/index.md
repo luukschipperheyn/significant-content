@@ -61,36 +61,12 @@ blocks:
     round: false
     border: false
     text: Upcoming event
-  - body: >-
-      20.00 – 21.45\
-
-      29 November 2023\
-
+  - body: |-
+      Nederlandstalige editie (Dutch edition)\
+      22 February 2024\
       Nieuwe Instituut, Rotterdam
 
-
-      With guests Depths of Wikipedia and Fashionlover4.
-
-
-      [🎫 T﻿ickets](https://www.eventbrite.nl/e/significant-content-reboot-tickets-728293354027)\
-
-      [♿ A﻿ccessibility](https://nieuweinstituut.nl/en/projects/plan-uw-bezoek/toegankelijkheid)
-
-
-      # Depths of Wikipedia
-
-
-      ![Annie Rauwerda of Depths of Wikipedia](/img/annie_dow.png)
-
-
-      Bored during the pandemic Annie Rauwerda started her Instagram page “Depths of Wikipedia” in April of 2020. Although originally intended to share strange, surprising, and interesting facts from the English Wikipedia among friends, the page has grown over a million followers. Annie made a Twitter page, where the Wikipedia screenshots get posted as well. On TikTok she uses the @depthsofwikipedia handle to post personal stories, facts about Wikipedia, comedic videos and updates on her [perpetual stew](https://en.wikipedia.org/wiki/Perpetual_stew). 
-
-
-      [Instagram](https://www.instagram.com/depthsofwikipedia/)[](https://twitter.com/depthsofwiki)\
-
-      [Twitter/X](https://twitter.com/depthsofwiki)\
-
-      [TikTok](https://www.tiktok.com/@depthsofwikipedia)[](https://www.youtube.com/@fern-tv)
+      More info soon!
     open: true
     border: false
     round: false
@@ -99,32 +75,6 @@ blocks:
     bottom-images: []
     type: content-block
     columns: 3
-  - type: content-block
-    label: ""
-    columns: 3
-    rows: 1
-    round: false
-    open: true
-    border: false
-    body: >-
-      # Fashionlover4
-
-
-      ![Michael of Fashionlover4](/img/ig_hni-03.png)
-
-
-      Michael, aka Fashionlover4 or @hotfashiontakes, has an interest in fashion, but is also critical of the fashion world. On TikTok he posts short and snappy videos like tier lists, and explainer videos on topics like a specific garment or the history of a brand or designer. On his YouTube channel he posts longer video-essays that go more in-depth and visually often have a livestream-like composition where a green screen video of Michael is placed in a bottom corner on top of archival video footage. 
-
-
-      [TikTok](https://www.tiktok.com/@hotfashiontakes)\
-
-      [YouTube](https://www.youtube.com/@fashionlover4)[\
-
-      Instagram](https://www.instagram.com/fashionluver4/)\
-
-      [Patreon](https://www.patreon.com/fashionlover4)[\
-
-      Blog](https://fashionlover4.com/)
   - type: empty-block
     columns: 2
     rows: 1
