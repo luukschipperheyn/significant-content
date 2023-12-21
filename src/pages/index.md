@@ -119,6 +119,21 @@ blocks:
 
 
           R﻿ecorded 7 October 2021 at Nieuwe Instituut, Rotterdam.
+      - label: Hoog
+        body: >-
+          <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/opbQ64Oy1gw?si=vKDDKBUUgpbVqGAf"
+          title="YouTube video player" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+          Hoog started out as a YouTube-channel posting video essays about design. The video essay genre is one of the most prominent on the platform. Hoog essays maintain a consistent style, with 3D animation as one of its more distinctive elements and the use of genre defining elements such as archival footage, musical elements and voice over. Lately, Hoog started a joint venture with Simplicissimus as Fern, a new YouTube-channel where they post “armchair documentaries” in a similar style, but on a wider variety of topics, from McDonalds packaging to how The Netherlands should be considered a giant city. Only two years in, Hoog and Fern video’s clearly resonate with the YouTube audience, having passed a total of thirty million views to date.
+
+
+          [Hoog on YouTube](https://www.youtube.com/@romulushoog)\
+
+          [Fern on YouTube](https://www.youtube.com/@fern-tv)
       - label: "@joan.of.arca"
         body: >-
           The page of Sophie Browning, <a
