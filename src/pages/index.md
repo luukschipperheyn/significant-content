@@ -70,7 +70,7 @@ blocks:
     border: false
     body: |-
       Nederlandstalige editie (Dutch edition)\
-      22 February 2024\
+      22 februari 2024\
       Nieuwe Instituut, Rotterdam
 
       T﻿ickets binnenkort verkrijgbaar!
