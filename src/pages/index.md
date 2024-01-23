@@ -61,20 +61,48 @@ blocks:
     round: false
     border: false
     text: Upcoming event
-  - body: |-
+  - type: content-block
+    label: ""
+    columns: 1
+    rows: 1
+    round: false
+    open: true
+    border: false
+    body: |-
       Nederlandstalige editie (Dutch edition)\
       22 February 2024\
       Nieuwe Instituut, Rotterdam
 
-      More info soon!
+      T﻿ickets binnenkort verkrijgbaar!
+  - type: content-block
+    label: ""
+    columns: 1
+    rows: 1
+    round: false
     open: true
     border: false
-    round: false
-    label: ""
-    rows: 1
-    bottom-images: []
-    type: content-block
-    columns: 3
+    body: >-
+      # Sprekers
+
+
+      # N﻿ini Nori
+
+
+      ![](/img/processed-c8712552-b896-4aab-808b-ba299f362b93-copy.jpg)
+
+
+      Nini Nori deelt als food-TikTokker video’s waarin ze kookt of restaurants bezoekt, vaak voorzien van een komische voice-over. \
+
+      \
+
+      [](https://www.tiktok.com/@nininorii)[T﻿ikTok](https://www.tiktok.com/@nininorii)\
+
+      [I﻿nstagram](https://www.instagram.com/Nininorii)\
+
+      [Y﻿ouTube](https://www.youtube.com/@NiniNori)
+
+
+      D﻿e tweede spreker wordt binnenkort bekendgemaakt!
   - type: empty-block
     columns: 2
     rows: 1
