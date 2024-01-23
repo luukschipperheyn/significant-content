@@ -60,7 +60,7 @@ blocks:
     rows: 1
     round: false
     border: false
-    text: Upcoming event
+    text: Aankomende editie
   - type: content-block
     label: ""
     columns: 1
