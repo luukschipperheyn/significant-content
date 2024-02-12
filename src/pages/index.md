@@ -100,7 +100,7 @@ blocks:
       ![](/img/de-marker.jpg)
 
 
-      Jouw nieuws, gehighlight. Met deze tagline presenteert @demarkeronline van BNNVARA zich online op Instagram, TikTok en hun wekelijkse podcast. De Marker brengt dagelijks nieuws, achtergronden en opinie, gemaakt voor en door jongeren.\
+      Jouw nieuws, gehighlight. Met deze tagline presenteert De Marker van BNNVARA zich online op Instagram, TikTok en hun wekelijkse podcast. De Marker brengt dagelijks nieuws, achtergronden en opinie, gemaakt voor en door jongeren.\
 
       \
 
@@ -170,6 +170,31 @@ blocks:
 
 
           R﻿ecorded 7 October 2021 at Nieuwe Instituut, Rotterdam.
+      - label: Fashionlover4
+        body: >-
+          Michael, aka Fashionlover4 or @hotfashiontakes, has an interest in
+          fashion, but is also critical of the fashion world. On TikTok he posts
+          short and snappy videos like tier lists, and explainer videos on
+          topics like a specific garment or the history of a brand or designer.
+          On his YouTube channel he posts longer video-essays that go more
+          in-depth and visually often have a livestream-like composition where a
+          green screen video of Michael is placed in a bottom corner on top of
+          archival video footage. 
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/sEll2v5ZKI8?si=OneKuM3W2YJSqeAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>\
+
+          \
+
+          [TikTok](https://www.tiktok.com/@hotfashiontakes)\
+
+          [YouTube](https://www.youtube.com/@fashionlover4)[\
+
+          Instagram](https://www.instagram.com/fashionluver4/)\
+
+          [Patreon](https://www.patreon.com/fashionlover4)[\
+
+          Blog](https://fashionlover4.com/)
       - label: Hoog
         body: >-
           <iframe width="560" height="315"
