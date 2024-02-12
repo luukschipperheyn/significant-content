@@ -182,19 +182,7 @@ blocks:
           archival video footage. 
 
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/sEll2v5ZKI8?si=OneKuM3W2YJSqeAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>\
-
-          \
-
-          [TikTok](https://www.tiktok.com/@hotfashiontakes)\
-
-          [YouTube](https://www.youtube.com/@fashionlover4)[\
-
-          Instagram](https://www.instagram.com/fashionluver4/)\
-
-          [Patreon](https://www.patreon.com/fashionlover4)[\
-
-          Blog](https://fashionlover4.com/)
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/sEll2v5ZKI8?si=OneKuM3W2YJSqeAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       - label: Hoog
         body: >-
           <iframe width="560" height="315"
