@@ -73,6 +73,8 @@ blocks:
 
       22 februari 2024\
 
+      2﻿0.00 - 21.30\
+
       Nieuwe Instituut, Rotterdam
 
 
@@ -92,6 +94,23 @@ blocks:
       # Sprekers
 
 
+      # D﻿e Marker
+
+
+      ![](/img/de-marker.jpg)
+
+
+      Jouw nieuws, gehighlight. Met deze tagline presenteert @demarkeronline van BNNVARA zich online op Instagram, TikTok en hun wekelijkse podcast. De Marker brengt dagelijks nieuws, achtergronden en opinie, gemaakt voor en door jongeren.\
+
+      \
+
+      [T﻿ikTok](https://www.tiktok.com/@demarkeronline)\
+
+      [I﻿nstagram](https://www.instagram.com/demarkeronline/)\
+
+      [P﻿odcast](https://open.spotify.com/show/6PyGCbm9ybAjuGeEkPc0yp?si=jqceygItTxmjTJtQwBpfwg)
+
+
       # N﻿ini Nori
 
 
@@ -107,9 +126,6 @@ blocks:
       [I﻿nstagram](https://www.instagram.com/Nininorii)\
 
       [Y﻿ouTube](https://www.youtube.com/@NiniNori)
-
-
-      D﻿e tweede spreker wordt binnenkort bekendgemaakt!
   - type: empty-block
     columns: 2
     rows: 1
