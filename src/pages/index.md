@@ -69,12 +69,17 @@ blocks:
     open: true
     border: false
     body: |-
-      Nederlandstalige editie (Dutch edition)\
-      22 februari 2024\
-      2﻿0.00 - 21.30\
-      Nieuwe Instituut, Rotterdam
+      Significant Content w/ James Rehwald\
+      \
+      1﻿0 April 2024\
+      2﻿0.00 – 22.00\
+      \
+      P﻿akhuis De Zwijger\
+      Amsterdam
 
       [🎟 T﻿ickets](https://significantcontent.stager.co/web/tickets/111396604)
+
+      [♿ Accessibility](https://dezwijger.nl/about-us-en/accessibility)
   - type: content-block
     label: ""
     columns: 1
@@ -83,41 +88,28 @@ blocks:
     open: true
     border: false
     body: >-
-      # Sprekers
+      # Speakers
 
 
-      # D﻿e Marker
+      # James Rehwald
 
 
-      ![](/img/de-marker.jpg)
+      ![](/img/jamescopy.jpg)
 
 
       Jouw nieuws, gehighlight. Met deze tagline presenteert De Marker van BNNVARA zich online op Instagram, TikTok en hun wekelijkse podcast. De Marker brengt dagelijks nieuws, achtergronden en opinie, gemaakt voor en door jongeren.\
 
       \
 
-      [T﻿ikTok](https://www.tiktok.com/@demarkeronline)\
+      [T﻿ikTok](https://www.tiktok.com/@jrehwald15)\
 
-      [I﻿nstagram](https://www.instagram.com/demarkeronline/)\
+      [Y﻿ouTube](https://www.youtube.com/@JamesRehwald)\
 
-      [P﻿odcast](https://open.spotify.com/show/6PyGCbm9ybAjuGeEkPc0yp?si=jqceygItTxmjTJtQwBpfwg)
+      [I﻿nstagram](https://www.instagram.com/jrehwald15backup/)\
 
+      [T﻿witter/X](https://twitter.com/JamesRehwald)\
 
-      # N﻿ini Nori
-
-
-      ![](/img/processed-c8712552-b896-4aab-808b-ba299f362b93-copy.jpg)
-
-
-      Nini Nori deelt als food-TikTokker video’s waarin ze kookt of restaurants bezoekt, vaak voorzien van een komische voice-over. \
-
-      \
-
-      [](https://www.tiktok.com/@nininorii)[T﻿ikTok](https://www.tiktok.com/@nininorii)\
-
-      [I﻿nstagram](https://www.instagram.com/Nininorii)\
-
-      [Y﻿ouTube](https://www.youtube.com/@NiniNori)
+      [P﻿atreon](https://www.patreon.com/JamesRehwald)
   - type: empty-block
     columns: 2
     rows: 1
