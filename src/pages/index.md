@@ -103,11 +103,11 @@ blocks:
 
       [T﻿ikTok](https://www.tiktok.com/@jrehwald15)\
 
+      [I﻿nstagram](https://www.instagram.com/jrehwald15backup/)[\
+
+      T﻿witter/X](https://twitter.com/JamesRehwald)\
+
       [Y﻿ouTube](https://www.youtube.com/@JamesRehwald)\
-
-      [I﻿nstagram](https://www.instagram.com/jrehwald15backup/)\
-
-      [T﻿witter/X](https://twitter.com/JamesRehwald)\
 
       [P﻿atreon](https://www.patreon.com/JamesRehwald)
 
