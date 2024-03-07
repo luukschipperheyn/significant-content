@@ -60,7 +60,7 @@ blocks:
     rows: 1
     round: false
     border: false
-    text: Aankomende editie
+    text: Upcoming event
   - type: content-block
     label: ""
     columns: 1
@@ -68,21 +68,13 @@ blocks:
     round: false
     open: true
     border: false
-    body: >-
+    body: |-
       Nederlandstalige editie (Dutch edition)\
-
       22 februari 2024\
-
       2﻿0.00 - 21.30\
-
       Nieuwe Instituut, Rotterdam
 
-
-      [🎟 T﻿ickets](https://www.eventbrite.nl/e/tickets-significant-content-nederlandse-editie-792845250487)\
-
-      \
-
-      [♿ Toegankelijkheid](https://nieuweinstituut.nl/projects/plan-uw-bezoek/toegankelijkheid)
+      [🎟 T﻿ickets](https://significantcontent.stager.co/web/tickets/111396604)
   - type: content-block
     label: ""
     columns: 1
