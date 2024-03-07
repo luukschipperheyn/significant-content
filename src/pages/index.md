@@ -110,6 +110,9 @@ blocks:
       [T﻿witter/X](https://twitter.com/JamesRehwald)\
 
       [P﻿atreon](https://www.patreon.com/JamesRehwald)
+
+
+      S﻿econd speaker to be announced soon!
   - type: empty-block
     columns: 2
     rows: 1
