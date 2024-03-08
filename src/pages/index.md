@@ -97,7 +97,7 @@ blocks:
       ![](/img/jamescopy.jpg)
 
 
-      Jouw nieuws, gehighlight. Met deze tagline presenteert De Marker van BNNVARA zich online op Instagram, TikTok en hun wekelijkse podcast. De Marker brengt dagelijks nieuws, achtergronden en opinie, gemaakt voor en door jongeren.\
+      Through fast-paced videos with lots of video effects and added text and graphics, James Rehwald shares his take on American and international politics. The abundance of references creates the feeling that his videos are well researched, but combined with the fast-paced editing style, it also contributes to the comedy that plays a large role in his videos. As a creator of content that does not conform to the political status quo, James has had to deal with videos and accounts being (shadow) banned in recent years.\
 
       \
 
