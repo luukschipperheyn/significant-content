@@ -80,14 +80,7 @@ blocks:
       [🎟 T﻿ickets](https://significantcontent.stager.co/web/tickets/111396604)
 
       [♿ Accessibility](https://dezwijger.nl/about-us-en/accessibility)
-  - type: content-block
-    label: ""
-    columns: 1
-    rows: 1
-    round: false
-    open: true
-    border: false
-    body: >-
+  - body: >-
       # Speakers
 
 
@@ -113,6 +106,14 @@ blocks:
 
 
       S﻿econd speaker to be announced soon!
+    open: true
+    slug: speakers
+    border: false
+    round: false
+    label: ""
+    rows: 1
+    type: content-block
+    columns: 1
   - type: empty-block
     columns: 2
     rows: 1
