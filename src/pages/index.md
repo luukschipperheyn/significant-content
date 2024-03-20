@@ -105,7 +105,21 @@ blocks:
       [P﻿atreon](https://www.patreon.com/JamesRehwald)
 
 
-      S﻿econd speaker to be announced soon!
+      # Defunctland
+
+
+      ![](/img/defunctland-icon.jpeg)
+
+
+      In 2017 Kevin Perjurer started making a video series on a VR project he started where was creating a virtual theme park consisting of various demolished attractions called Defunctland. Even though the VR project still exists, as a community project now, Kevin has made Defunctland into a popular YouTube channel. In his videos he maps out the history of vanished theme parks and attractions. Eventually he branched out to include broader pop culture topics too such as TV shows and fast food chains.\
+
+      \
+
+      [Y﻿ouTube](https://www.youtube.com/@Defunctland)\
+
+      [Twitter/X](https://twitter.com/defunctland)\
+
+      [R﻿eddit](https://www.reddit.com/r/Defunctland/)
     open: true
     slug: speakers
     border: false
