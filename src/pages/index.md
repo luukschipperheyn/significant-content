@@ -69,7 +69,7 @@ blocks:
     open: true
     border: false
     body: |-
-      Significant Content w/ James Rehwald\
+      Significant Content w/ James Rehwald & Defunctland\
       \
       1﻿0 April 2024\
       2﻿0.00 – 22.00\
