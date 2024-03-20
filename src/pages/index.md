@@ -119,6 +119,8 @@ blocks:
 
       [Twitter/X](https://twitter.com/defunctland)\
 
+      [P﻿atreon](https://www.patreon.com/Defunctland)\
+
       [R﻿eddit](https://www.reddit.com/r/Defunctland/)
     open: true
     slug: speakers
