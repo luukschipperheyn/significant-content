@@ -160,6 +160,19 @@ blocks:
   - type: archive
     label: Archive
     items:
+      - label: Depths of Wikipedia
+        body: >-
+          Bored during the pandemic Annie Rauwerda started her Instagram page
+          “Depths of Wikipedia” in April of 2020. Although originally intended
+          to share strange, surprising, and interesting facts from the English
+          Wikipedia among friends, the page has grown over a million followers.
+          Annie made a Twitter page, where the Wikipedia screenshots get posted
+          as well. On TikTok she uses the @depthsofwikipedia handle to post
+          personal stories, facts about Wikipedia, comedic videos and updates on
+          her [perpetual stew](https://en.wikipedia.org/wiki/Perpetual_stew). 
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/78E2wJQRiA8?si=YFkj7aG5CXeDbXAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       - label: "@driplist"
         body: >-
           Somi Lynda, [@driplist](https://www.tiktok.com/@driplist), moved from
