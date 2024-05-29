@@ -160,6 +160,18 @@ blocks:
   - type: archive
     label: Archive
     items:
+      - label: De Marker
+        body: >-
+          Jouw nieuws, gehighlight. Met deze tagline presenteert De Marker van
+          BNNVARA zich online op Instagram, TikTok en in hun wekelijkse podcast.
+          De Marker brengt dagelijks nieuws, achtergronden en opinie, gemaakt
+          voor en door jongeren. Redacteur Maud Kuijpers en allround maker Juan
+          Soto Visser vertellen hoe zij te werk gaan.
+
+
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/F8zKwqAPGhE?si=m9wJvfexdF4wswFv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       - label: Depths of Wikipedia
         body: >-
           Bored during the pandemic Annie Rauwerda started her Instagram page
