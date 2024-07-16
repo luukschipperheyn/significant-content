@@ -147,6 +147,20 @@ blocks:
           [Hoog on YouTube](https://www.youtube.com/@romulushoog)\
 
           [Fern on YouTube](https://www.youtube.com/@fern-tv)
+      - label: James Rehwald
+        body: >-
+          Through fast-paced videos with lots of effects and added text and
+          graphics, James Rehwald shares his views on American and international
+          politics. 
+
+
+          The abundance of references creates the feeling that his videos are well researched, but combined with the fast-paced editing style, it also contributes to the comedy that plays a large role in his videos as well. 
+
+
+          As a creator of content that does not conform to the political status quo, James has had to deal with videos and accounts being banned and shadow banned in recent years.
+
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Vhos5ZwBGbY?si=1lN4IS_7y2vKZ_1h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       - label: "@joan.of.arca"
         body: >-
           The page of Sophie Browning, <a
